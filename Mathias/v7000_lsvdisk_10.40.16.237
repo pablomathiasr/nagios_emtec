@@ -1,0 +1,225 @@
+id,name,IO_group_id,IO_group_name,status,mdisk_grp_id,mdisk_grp_name,capacity,type,FC_id,FC_name,RC_id,RC_name,vdisk_UID,fc_map_count,copy_count,fast_write_state,se_copy_count,RC_change,compressed_copy_count,parent_mdisk_grp_id,parent_mdisk_grp_name
+0,N6210_Filer1_Prod_aggr0_root,0,io_grp0,online,7,Pool_NAS_N6210_proyecto Consolidacion,85899345920,striped,,,,,600507680280831B3800000000000001,0,1,not_empty,0,no,0,7,Pool_NAS_N6210_proyecto Consolidacion
+1,u121_Lun01_50Gb,0,io_grp0,online,6,Pool-AIX_Proyecto Consolidacion,53687091200,striped,,,1,rcrel1,600507680280831B3800000000000002,0,1,not_empty,0,no,0,6,Pool-AIX_Proyecto Consolidacion
+2,u121_Lun02_50Gb,0,io_grp0,online,6,Pool-AIX_Proyecto Consolidacion,53687091200,striped,,,2,rcrel2,600507680280831B3800000000000003,0,1,not_empty,0,no,0,6,Pool-AIX_Proyecto Consolidacion
+3,u121_Lun03_50Gb,0,io_grp0,online,6,Pool-AIX_Proyecto Consolidacion,53687091200,striped,,,3,rcrel3,600507680280831B3800000000000004,0,1,not_empty,0,no,0,6,Pool-AIX_Proyecto Consolidacion
+4,u033_Lun01_80Gb,0,io_grp0,online,0,Pool_Disponible,85899345920,striped,,,4,rcrel0,600507680280831B3800000000000005,0,1,empty,0,no,0,0,Pool_Disponible
+5,N6210_Filer1_CDLV_Dato1,0,io_grp0,online,7,Pool_NAS_N6210_proyecto Consolidacion,2040109465600,striped,,,,,600507680280831B3800000000000011,0,1,not_empty,0,no,0,7,Pool_NAS_N6210_proyecto Consolidacion
+6,N6210_Filer1_CDLV_Dato2,0,io_grp0,online,7,Pool_NAS_N6210_proyecto Consolidacion,2040109465600,striped,,,,,600507680280831B3800000000000012,0,1,not_empty,0,no,0,7,Pool_NAS_N6210_proyecto Consolidacion
+7,N6210_Filer1_CDLV_Dato3,0,io_grp0,online,7,Pool_NAS_N6210_proyecto Consolidacion,2040109465600,striped,,,,,600507680280831B3800000000000013,0,1,not_empty,0,no,0,7,Pool_NAS_N6210_proyecto Consolidacion
+8,U024_30GB_vdisk14,0,io_grp0,online,6,Pool-AIX_Proyecto Consolidacion,32212254720,striped,,,,,600507680280831B3800000000000014,0,1,not_empty,0,no,0,6,Pool-AIX_Proyecto Consolidacion
+9,V001_LUN6,0,io_grp0,online,6,Pool-AIX_Proyecto Consolidacion,85899345920,striped,,,,,600507680280831B380000000000014A,0,1,not_empty,0,no,0,6,Pool-AIX_Proyecto Consolidacion
+10,V001_LUN1,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,85899345920,striped,,,,,600507680280831B3800000000000145,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+11,V001_LUN2,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,85899345920,striped,,,,,600507680280831B3800000000000146,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+12,X283_150GB_Vdisk18,0,io_grp0,online,6,Pool-AIX_Proyecto Consolidacion,161061273600,striped,,,,,600507680280831B3800000000000018,0,1,not_empty,0,no,0,6,Pool-AIX_Proyecto Consolidacion
+13,X386_150GB_Vdisk19,0,io_grp0,online,6,Pool-AIX_Proyecto Consolidacion,161061273600,striped,,,,,600507680280831B3800000000000019,0,1,not_empty,0,no,0,6,Pool-AIX_Proyecto Consolidacion
+14,X233_150GB_Vdisk1A,0,io_grp0,online,6,Pool-AIX_Proyecto Consolidacion,161061273600,striped,,,,,600507680280831B380000000000001A,0,1,not_empty,0,no,0,6,Pool-AIX_Proyecto Consolidacion
+15,U121_2GB_Vdisk20,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,2147483648,striped,,,,,600507680280831B3800000000000120,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+16,U024_35GB_vdisk1C,0,io_grp0,online,6,Pool-AIX_Proyecto Consolidacion,37580963840,striped,,,16,rcrel12,600507680280831B380000000000001C,0,1,not_empty,0,no,0,6,Pool-AIX_Proyecto Consolidacion
+17,U024_50GB_vdisk1D,0,io_grp0,online,6,Pool-AIX_Proyecto Consolidacion,53687091200,striped,,,17,rcrel13,600507680280831B380000000000001D,0,1,not_empty,0,no,0,6,Pool-AIX_Proyecto Consolidacion
+18,V001_LUN3,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,85899345920,striped,,,,,600507680280831B3800000000000147,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+19,V001_LUN4,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,85899345920,striped,,,,,600507680280831B3800000000000148,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+20,V002_LUN7,0,io_grp0,online,6,Pool-AIX_Proyecto Consolidacion,85899345920,striped,,,,,600507680280831B380000000000014B,0,1,not_empty,0,no,0,6,Pool-AIX_Proyecto Consolidacion
+21,V048_LUN1,0,io_grp0,online,6,Pool-AIX_Proyecto Consolidacion,85899345920,striped,,,,,600507680280831B380000000000014C,0,1,not_empty,0,no,0,6,Pool-AIX_Proyecto Consolidacion
+22,V049_LUN1,0,io_grp0,online,0,Pool_Disponible,85899345920,striped,,,,,600507680280831B380000000000014D,0,1,empty,0,no,0,0,Pool_Disponible
+23,U136_135.73GB_Vdisk23,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,145741053952,striped,,,,,600507680280831B3800000000000023,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+24,U136_271.46GB_Vdisk24,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,291482107904,striped,,,,,600507680280831B3800000000000024,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+25,U136_271.46GB_Vdisk25,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,291482107904,striped,,,,,600507680280831B3800000000000025,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+26,U136_350GB_Vdisk26,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,375809638400,striped,,,,,600507680280831B3800000000000026,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+27,U136_300GB_Vdisk27,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,322122547200,striped,,,,,600507680280831B3800000000000027,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+28,U136_75GB_Vdisk28,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,80530636800,striped,,,,,600507680280831B3800000000000028,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+29,u121_Lun04_55Gb,0,io_grp0,online,6,Pool-AIX_Proyecto Consolidacion,59055800320,striped,,,29,rcrel14,600507680280831B3800000000000029,0,1,empty,0,no,0,6,Pool-AIX_Proyecto Consolidacion
+30,V050_60GB_LUN001,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,64424509440,striped,,,,,600507680280831B380000000000002A,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+31,V050_60GB_LUN002,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,64424509440,striped,,,,,600507680280831B380000000000002B,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+32,X149_SO_40GB_Vdisk2C,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,42949672960,striped,,,,,600507680280831B380000000000002C,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+33,X149_SO_40GB_Vdisk2D,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,42949672960,striped,,,,,600507680280831B380000000000002D,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+34,NIM61_1.3TB_FsBackup,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,1430224109568,striped,,,,,600507680280831B3800000000000133,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+35,V001_LUN5,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,85899345920,striped,,,,,600507680280831B3800000000000149,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+36,V046_60GB_Vdisk34,0,io_grp0,online,0,Pool_Disponible,64424509440,striped,,,,,600507680280831B3800000000000034,0,1,not_empty,0,no,0,0,Pool_Disponible
+37,X149_30GB_Vdisk31,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,32212254720,striped,,,,,600507680280831B3800000000000031,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+38,V046_60GB_Vdisk35,0,io_grp0,online,0,Pool_Disponible,64424509440,striped,,,,,600507680280831B3800000000000035,0,1,empty,0,no,0,0,Pool_Disponible
+39,X149_1GB_Vdisk33,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,1073741824,striped,,,,,600507680280831B3800000000000033,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+40,V040_60GB_Vdisk36,0,io_grp0,online,0,Pool_Disponible,64424509440,striped,,,,,600507680280831B3800000000000036,0,1,not_empty,0,no,0,0,Pool_Disponible
+41,V040_60GB_Vdisk37,0,io_grp0,online,0,Pool_Disponible,64424509440,striped,,,,,600507680280831B3800000000000037,0,1,not_empty,0,no,0,0,Pool_Disponible
+42,x062_LUN00,0,io_grp0,online,0,Pool_Disponible,42949672960,striped,,,,,600507680280831B3800000000000038,0,1,not_empty,0,no,0,0,Pool_Disponible
+43,x062_LUN01,0,io_grp0,online,0,Pool_Disponible,42949672960,striped,,,,,600507680280831B3800000000000039,0,1,not_empty,0,no,0,0,Pool_Disponible
+44,x080_LUN00,0,io_grp0,online,0,Pool_Disponible,42949672960,striped,,,,,600507680280831B380000000000003A,0,1,not_empty,0,no,0,0,Pool_Disponible
+45,x080_LUN01,0,io_grp0,online,0,Pool_Disponible,42949672960,striped,,,,,600507680280831B380000000000003B,0,1,not_empty,0,no,0,0,Pool_Disponible
+46,x159_LUN00,0,io_grp0,online,0,Pool_Disponible,42949672960,striped,,,,,600507680280831B380000000000003C,0,1,not_empty,0,no,0,0,Pool_Disponible
+47,x159_LUN01,0,io_grp0,online,0,Pool_Disponible,42949672960,striped,,,,,600507680280831B380000000000003D,0,1,not_empty,0,no,0,0,Pool_Disponible
+48,xmdi_LUN00,0,io_grp0,online,0,Pool_Disponible,42949672960,striped,,,,,600507680280831B380000000000003E,0,1,not_empty,0,no,0,0,Pool_Disponible
+49,xmdi_LUN01,0,io_grp0,online,0,Pool_Disponible,42949672960,striped,,,,,600507680280831B380000000000003F,0,1,not_empty,0,no,0,0,Pool_Disponible
+50,xsbt_LUN00,0,io_grp0,online,0,Pool_Disponible,42949672960,striped,,,,,600507680280831B3800000000000040,0,1,not_empty,0,no,0,0,Pool_Disponible
+51,xsbt_LUN01,0,io_grp0,online,0,Pool_Disponible,42949672960,striped,,,,,600507680280831B3800000000000041,0,1,not_empty,0,no,0,0,Pool_Disponible
+52,u270_u271_Lun11_41GB,0,io_grp0,online,6,Pool-AIX_Proyecto Consolidacion,44023414784,striped,,,,,600507680280831B3800000000000042,0,1,empty,0,no,0,6,Pool-AIX_Proyecto Consolidacion
+53,u270_Lun12_15GB,0,io_grp0,online,6,Pool-AIX_Proyecto Consolidacion,16106127360,striped,,,,,600507680280831B3800000000000043,0,1,not_empty,0,no,0,6,Pool-AIX_Proyecto Consolidacion
+54,U271_Lun12_15GB,0,io_grp0,online,6,Pool-AIX_Proyecto Consolidacion,16106127360,striped,,,,,600507680280831B3800000000000044,0,1,not_empty,0,no,0,6,Pool-AIX_Proyecto Consolidacion
+55,u271_Lun5_10GB,0,io_grp0,online,6,Pool-AIX_Proyecto Consolidacion,10737418240,striped,,,,,600507680280831B3800000000000045,0,1,empty,0,no,0,6,Pool-AIX_Proyecto Consolidacion
+56,u270_Lun5_10GB,0,io_grp0,online,6,Pool-AIX_Proyecto Consolidacion,10737418240,striped,,,,,600507680280831B3800000000000046,0,1,empty,0,no,0,6,Pool-AIX_Proyecto Consolidacion
+57,U271_Lun03_15GB,0,io_grp0,online,6,Pool-AIX_Proyecto Consolidacion,16106127360,striped,,,,,600507680280831B3800000000000047,0,1,not_empty,0,no,0,6,Pool-AIX_Proyecto Consolidacion
+58,U270_Lun03_15GB,0,io_grp0,online,6,Pool-AIX_Proyecto Consolidacion,16106127360,striped,,,,,600507680280831B3800000000000048,0,1,not_empty,0,no,0,6,Pool-AIX_Proyecto Consolidacion
+59,Bchapp410_Disco_G_200GB,0,io_grp0,online,0,Pool_Disponible,214748364800,striped,,,,,600507680280831B38000000000000D4,0,1,empty,0,no,0,0,Pool_Disponible
+60,u270_u271_Lun7_126GB,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,135291469824,striped,,,,,600507680280831B380000000000004A,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+61,u270_u271_Lun2_90GB,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,96636764160,striped,,,,,600507680280831B380000000000004B,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+62,u270_u271_Lun0_100GB,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,107374182400,striped,,,,,600507680280831B380000000000004C,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+63,u270_u271_Lun1_90GB,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,96636764160,striped,,,,,600507680280831B380000000000004D,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+64,u270_u271_Lun8_110GB,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,118111600640,striped,,,,,600507680280831B380000000000004E,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+65,u270_u271_Lun9_300GB,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,322122547200,striped,,,,,600507680280831B380000000000004F,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+66,u270_u271_Lun10_102GB,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,109521666048,striped,,,,,600507680280831B3800000000000050,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+67,u270_u271_Lun15_20GB,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,21474836480,striped,,,,,600507680280831B3800000000000051,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+68,u270_u271_Lun13_50GB,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,53687091200,striped,,,,,600507680280831B3800000000000052,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+69,u271_Lun06_111GB,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,119185342464,striped,,,,,600507680280831B3800000000000053,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+70,u270_Lun06_160GB,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,171798691840,striped,,,,,600507680280831B3800000000000054,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+71,u271_Lun14_100GB,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,107374182400,striped,,,,,600507680280831B3800000000000055,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+72,u270_Lun14_93GB,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,99857989632,striped,,,,,600507680280831B3800000000000056,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+73,x062_LUN02,0,io_grp0,online,0,Pool_Disponible,53687091200,striped,,,,,600507680280831B3800000000000057,0,1,empty,0,no,0,0,Pool_Disponible
+74,x080_LUN02,0,io_grp0,online,6,Pool-AIX_Proyecto Consolidacion,32212254720,striped,,,,,600507680280831B3800000000000058,0,1,empty,0,no,0,6,Pool-AIX_Proyecto Consolidacion
+75,x159_LUN02,0,io_grp0,online,0,Pool_Disponible,32212254720,striped,,,,,600507680280831B3800000000000059,0,1,empty,0,no,0,0,Pool_Disponible
+76,xmdi_LUN02,0,io_grp0,online,0,Pool_Disponible,32212254720,striped,,,,,600507680280831B380000000000005A,0,1,empty,0,no,0,0,Pool_Disponible
+77,Bchapp410_Disco_I_50GB,0,io_grp0,online,0,Pool_Disponible,53687091200,striped,,,,,600507680280831B38000000000000D5,0,1,not_empty,0,no,0,0,Pool_Disponible
+78,x062_T062_hb_CDLV,0,io_grp0,online,0,Pool_Disponible,1073741824,striped,,,,,600507680280831B380000000000005C,0,1,not_empty,0,no,0,0,Pool_Disponible
+79,x080_T080_hb_CDLV,0,io_grp0,online,0,Pool_Disponible,1073741824,striped,,,,,600507680280831B380000000000005D,0,1,not_empty,0,no,0,0,Pool_Disponible
+80,xsbt_Tsbst_hb_CDLV,0,io_grp0,online,0,Pool_Disponible,1073741824,striped,,,,,600507680280831B380000000000005E,0,1,not_empty,0,no,0,0,Pool_Disponible
+81,x159_T159_hb_CDLV,0,io_grp0,online,0,Pool_Disponible,1073741824,striped,,,,,600507680280831B380000000000005F,0,1,not_empty,0,no,0,0,Pool_Disponible
+82,xmdi_Tmdi_hb_CDLV,0,io_grp0,online,0,Pool_Disponible,1073741824,striped,,,,,600507680280831B3800000000000060,0,1,not_empty,0,no,0,0,Pool_Disponible
+83,u254_u255_Lun01,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,53687091200,striped,,,,,600507680280831B3800000000000094,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+84,u254_u255_HB,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,12884901888,striped,,,,,600507680280831B3800000000000095,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+85,N6210_Filer1_CDLV_Dato6,0,io_grp0,online,7,Pool_NAS_N6210_proyecto Consolidacion,268435456000,striped,,,,,600507680280831B380000000000012A,0,1,empty,0,no,0,7,Pool_NAS_N6210_proyecto Consolidacion
+86,U380_300GB_Disk09,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,322122547200,striped,,,,,600507680280831B380000000000012B,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+87,u258_VG02_04_LUN4,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,161061273600,striped,,,,,600507680280831B38000000000000D3,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+88,Bchapp410_Disco_F_300GB,0,io_grp0,online,0,Pool_Disponible,322122547200,striped,,,,,600507680280831B38000000000000D6,0,1,not_empty,0,no,0,0,Pool_Disponible
+89,Bchnc53_Bchnc54_400GB_VdiskD7,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,429496729600,striped,,,,,600507680280831B38000000000000D7,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+90,Bchnc53_Bchnc54_200GB_VdiskD8,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,214748364800,striped,,,,,600507680280831B38000000000000D8,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+91,u230_Rootvg_40GB,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,42949672960,striped,,,,,600507680280831B3800000000000069,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+92,u231_Rootvg_40GB,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,42949672960,striped,,,,,600507680280831B380000000000006A,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+93,u232_Rootvg_40GB,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,42949672960,striped,,,,,600507680280831B380000000000006B,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+94,u234_Rootvg_40GB,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,42949672960,striped,,,,,600507680280831B380000000000006C,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+95,u249_Rootvg_40GB,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,42949672960,striped,,,,,600507680280831B380000000000006D,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+96,u275_Rootvg_40GB,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,42949672960,striped,,,,,600507680280831B380000000000006E,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+97,u230_Datos01_120GB,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,128849018880,striped,,,,,600507680280831B380000000000006F,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+98,u231_Datos01_120GB,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,128849018880,striped,,,,,600507680280831B3800000000000070,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+99,u234_Datos01_120GB,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,128849018880,striped,,,,,600507680280831B3800000000000071,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+100,u249_Datos02_120GB,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,128849018880,striped,,,,,600507680280831B3800000000000072,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+101,u232_Datos01_160GB,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,171798691840,striped,,,,,600507680280831B3800000000000073,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+102,U249_Datos01_180GB,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,193273528320,striped,,,,,600507680280831B3800000000000074,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+103,U275_Datos01_130GB,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,139586437120,striped,,,,,600507680280831B3800000000000075,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+104,Bchnc53_Bchnc54_120GB_VdiskD9,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,128849018880,striped,,,,,600507680280831B38000000000000D9,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+105,xsbt_Swap_25GB,0,io_grp0,online,0,Pool_Disponible,26843545600,striped,,,,,600507680280831B3800000000000077,0,1,empty,0,no,0,0,Pool_Disponible
+106,u160_Lun0_200GB,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,214853222400,striped,,,,,600507680280831B3800000000000079,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+107,detl2k_429GB_Lun1,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,462782726144,striped,,,,,600507680280831B380000000000007F,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+108,u104_vol2_src,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,150323855360,striped,,,108,rcrel16,600507680280831B380000000000007C,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+109,u104_vol1_src,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,150645977600,striped,,,109,rcrel15,600507680280831B380000000000007D,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+110,Bchnc53_Bchnc54_1GB_VdiskDA,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,1073741824,striped,,,,,600507680280831B38000000000000DA,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+111,detl2k_429GB_Lun3,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,462779035136,striped,,,,,600507680280831B3800000000000080,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+112,detl2k_8.5GB_Lun12,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,10737418240,striped,,,,,600507680280831B3800000000000081,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+113,detl2k_8.5GB_Lun13,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,10737418240,striped,,,,,600507680280831B3800000000000082,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+114,detl2k_125GB_Lun11,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,136365211648,striped,,,,,600507680280831B3800000000000083,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+115,detl2k_125GB_Lun10,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,136361017344,striped,,,,,600507680280831B3800000000000084,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+116,detl2k_99GB_Lun8,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,108447924224,striped,,,,,600507680280831B3800000000000085,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+117,detl2k_99GB_Lun6,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,108447924224,striped,,,,,600507680280831B3800000000000086,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+118,detl2k_99GB_Lun7,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,108447924224,striped,,,,,600507680280831B3800000000000087,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+119,detl2k_11GB_Lun5,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,13958643712,striped,,,,,600507680280831B3800000000000088,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+120,detl2k_8GB_Lun9,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,9663676416,striped,,,,,600507680280831B3800000000000089,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+121,detl2k_8GB_Lun4,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,9663676416,striped,,,,,600507680280831B380000000000008A,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+122,detl2k_679GB_Lun2,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,731219188736,striped,,,,,600507680280831B380000000000008B,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+123,u256_u257_lun00,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,54760833024,striped,,,,,600507680280831B380000000000008C,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+124,u256_vg_A,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,85899345920,striped,,,,,600507680280831B380000000000008D,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+125,u256_u257_vg01,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,214748364800,striped,,,,,600507680280831B380000000000008E,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+126,u256_u257_vg02_A,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,429496729600,striped,,,,,600507680280831B380000000000008F,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+127,u256_u257_vg03,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,214748364800,striped,,,,,600507680280831B3800000000000090,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+128,u256_u257_vghb_A,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,268435456,striped,,,,,600507680280831B3800000000000091,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+129,u256_u257_50GB,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,53687091200,striped,,,,,600507680280831B3800000000000092,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+130,u257_vg,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,85899345920,striped,,,,,600507680280831B3800000000000093,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+131,UNIM_1TB_LUN001,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,1099511627776,striped,,,,,600507680280831B3800000000000096,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+132,u258_VG01_LUN00,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,214748364800,striped,,,,,600507680280831B3800000000000099,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+133,U256_U257_110GB_00dc,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,118111600640,striped,,,,,600507680280831B38000000000000DC,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+134,u258_VG02_01_LUN01,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,117037858816,striped,,,,,600507680280831B380000000000009A,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+135,u258_VG02_02_LUN02,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,64424509440,striped,,,,,600507680280831B380000000000009B,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+136,u258_VG02_03_LUN03,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,44023414784,striped,,,,,600507680280831B380000000000009C,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+137,u258_udata_LUN04,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,53687091200,striped,,,,,600507680280831B380000000000009D,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+138,u258_210BG_LUN05,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,225482561536,striped,,,,,600507680280831B380000000000009E,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+139,u245_Lun00_LUN00,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,214748364800,striped,,,,,600507680280831B380000000000009F,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+140,u245_Lun001_LUN01,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,322122547200,striped,,,,,600507680280831B38000000000000A0,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+141,u245_Lun01_LUN02,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,214748364800,striped,,,,,600507680280831B38000000000000A1,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+142,u245_Lun02_LUN03,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,53687091200,striped,,,,,600507680280831B38000000000000A2,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+143,u245_Lun03_LUN04,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,756987985920,striped,,,,,600507680280831B38000000000000A3,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+144,u245_Lun04_LUN05,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,268435456000,striped,,,,,600507680280831B38000000000000A4,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+145,u245_81GB_LUN06,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,86973087744,striped,,,,,600507680280831B38000000000000A5,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+146,u245_120GB_LUN_01_LUN07,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,128849018880,striped,,,,,600507680280831B38000000000000A6,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+147,u245_LUN001_410GB_LUN08,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,441304743936,striped,,,,,600507680280831B38000000000000A7,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+148,u245_LUN002_56GB_LUN09,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,60393783296,striped,,,,,600507680280831B38000000000000A8,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+149,u245_LUN003_30GB_LUN10,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,32901693440,striped,,,,,600507680280831B38000000000000A9,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+150,u245_Lun01_A_LUN11,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,1170222895104,striped,,,,,600507680280831B38000000000000AA,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+151,u245_Lun02_A_LUN12,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,128849018880,striped,,,,,600507680280831B38000000000000AB,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+152,u245_Lun03_LUN13,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,48240787456,striped,,,,,600507680280831B38000000000000AC,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+153,u245_Lun04_LUN14,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,128849018880,striped,,,,,600507680280831B38000000000000AD,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+154,U270_150GB,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,161061273600,striped,,,,,600507680280831B380000000000011C,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+155,V002_LUN1,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,85899345920,striped,,,,,600507680280831B380000000000013F,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+156,NIM53_700GB_Fsbackup,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,751619276800,striped,,,,,600507680280831B3800000000000131,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+157,NIM52_440GB_FsBackup,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,472446402560,striped,,,,,600507680280831B3800000000000132,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+158,X121_lun1,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,53687091200,striped,,,,,600507680280831B3800000000000134,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+159,X121_lun2,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,53687091200,striped,,,,,600507680280831B3800000000000135,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+160,X121_lun3,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,53687091200,striped,,,,,600507680280831B3800000000000136,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+161,x121_lun4,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,59055800320,striped,,,,,600507680280831B3800000000000137,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+162,V002_LUN2,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,85899345920,striped,,,,,600507680280831B3800000000000140,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+163,V002_LUN3,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,85899345920,striped,,,,,600507680280831B3800000000000141,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+164,x121_lun5,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,268435456000,striped,,,,,600507680280831B3800000000000138,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+165,U149_MIG_00,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,214748364800,striped,,,,,600507680280831B380000000000014E,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+166,V002_LUN4,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,85899345920,striped,,,,,600507680280831B3800000000000142,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+167,V002_LUN5,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,85899345920,striped,,,,,600507680280831B3800000000000143,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+168,V002_LUN6,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,107374182400,striped,,,,,600507680280831B3800000000000144,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+179,DS4300_Integracion_B_u252_Lun01,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,118111600640,striped,,,,,600507680280831B38000000000000C7,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+180,DS4300_Integracion_B_u252_Lun_prueba_5GB,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,5368709120,striped,,,,,600507680280831B38000000000000C8,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+181,DS4300-DW_u252_Lun01_A,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,42949672960,striped,,,,,600507680280831B38000000000000C9,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+182,U271_75GB,0,io_grp0,online,6,Pool-AIX_Proyecto Consolidacion,80530636800,striped,,,,,600507680280831B380000000000011D,0,1,empty,0,no,0,6,Pool-AIX_Proyecto Consolidacion
+183,U271_75GB_1,0,io_grp0,online,0,Pool_Disponible,80530636800,striped,,,,,600507680280831B380000000000011E,0,1,empty,0,no,0,0,Pool_Disponible
+184,U381_300GB_Disk09,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,322122547200,striped,,,,,600507680280831B380000000000012C,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+185,U121_2GB_Vdisk21,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,2147483648,striped,,,,,600507680280831B3800000000000121,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+186,U121_2GB_Vdisk22,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,2147483648,striped,,,,,600507680280831B3800000000000122,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+187,U121_2GB_Vdisk23,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,2147483648,striped,,,,,600507680280831B3800000000000123,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+188,U121_2GB_Vdisk24,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,2147483648,striped,,,,,600507680280831B3800000000000124,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+189,U249_Vdisk1,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,85899345920,striped,,,,,600507680280831B3800000000000126,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+190,U249_Vdisk2,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,85899345920,striped,,,,,600507680280831B3800000000000127,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+193,NIM53_250GB_001,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,268435456000,striped,,,,,600507680280831B38000000000000E9,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+194,NIM53_250GB_002,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,268435456000,striped,,,,,600507680280831B38000000000000EA,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+195,NIM53_250GB_003,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,268435456000,striped,,,,,600507680280831B38000000000000EB,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+196,NIM52_250GB_001,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,268435456000,striped,,,,,600507680280831B38000000000000EC,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+197,NIM52_250GB_002,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,268435456000,striped,,,,,600507680280831B38000000000000ED,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+198,NIM52_250GB_003,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,268435456000,striped,,,,,600507680280831B38000000000000EE,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+199,NIM52_250GB_004,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,268435456000,striped,,,,,600507680280831B38000000000000EF,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+200,NIM52_250GB_005,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,268435456000,striped,,,,,600507680280831B38000000000000F0,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+201,NIM61_250GB_001,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,268435456000,striped,,,,,600507680280831B38000000000000F1,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+202,NIM61_250GB_002,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,268435456000,striped,,,,,600507680280831B38000000000000F2,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+203,NIM61_250GB_003,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,268435456000,striped,,,,,600507680280831B38000000000000F3,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+204,NIM61_250GB_004,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,268435456000,striped,,,,,600507680280831B38000000000000F4,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+205,u270_u271_120GB_00F5,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,128849018880,striped,,,,,600507680280831B38000000000000F5,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+206,Bchapp212_1TB_VdiskF6,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,1099511627776,striped,,,,,600507680280831B38000000000000F6,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+207,u121_6GB_VdiskF7,0,io_grp0,online,6,Pool-AIX_Proyecto Consolidacion,6442450944,striped,,,,,600507680280831B38000000000000F7,0,1,empty,0,no,0,6,Pool-AIX_Proyecto Consolidacion
+208,BCHHYPERVDC24_2TB_00F8,0,io_grp0,online,0,Pool_Disponible,2199023255552,striped,,,,,600507680280831B38000000000000F8,0,1,not_empty,0,no,0,0,Pool_Disponible
+209,u245_500GB_LUN15,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,536870912000,striped,,,,,600507680280831B38000000000000F9,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+210,u245_500GB_LUN16,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,536870912000,striped,,,,,600507680280831B38000000000000FA,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+211,N6210_Filer1_CDLV_Dato4,0,io_grp0,online,7,Pool_NAS_N6210_proyecto Consolidacion,107374182400,striped,,,,,600507680280831B38000000000000FB,0,1,empty,0,no,0,7,Pool_NAS_N6210_proyecto Consolidacion
+213,U370_U371_512GB_001,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,549755813888,striped,,,,,600507680280831B3800000000000100,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+214,U370_U371_512GB_002,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,549755813888,striped,,,,,600507680280831B3800000000000101,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+215,BCHLNX57_Disk01_200GB,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,214748364800,striped,,,,,600507680280831B3800000000000102,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+216,Bchhypervdc24_130GB_Vdisk03,0,io_grp0,online,0,Pool_Disponible,139586437120,striped,,,,,600507680280831B3800000000000103,0,1,empty,0,no,0,0,Pool_Disponible
+217,BCHHYPERVDC24_130gb_VDISK04,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,139586437120,striped,,,,,600507680280831B3800000000000104,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+218,U380_U381_100GB_Disk01,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,107374182400,striped,,,,,600507680280831B3800000000000108,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+221,U380_U381_100GB_Disk02,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,107374182400,striped,,,,,600507680280831B3800000000000109,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+222,U380_U381_100GB_Disk03,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,107374182400,striped,,,,,600507680280831B380000000000010A,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+223,U380_U381_100GB_Disk04,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,107374182400,striped,,,,,600507680280831B380000000000010B,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+224,U380_U381_100GB_Disk05,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,107374182400,striped,,,,,600507680280831B380000000000010C,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+225,U380_U381_100GB_Disk06,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,107374182400,striped,,,,,600507680280831B380000000000010D,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+226,U380_U381_100GB_Disk07,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,107374182400,striped,,,,,600507680280831B380000000000010E,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+227,U380_U381_100GB_Disk08,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,107374182400,striped,,,,,600507680280831B380000000000010F,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+228,U252_new_SO_vdisk0110,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,85899345920,striped,,,,,600507680280831B3800000000000110,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+229,U252_new_SO_vdisk0111,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,85899345920,striped,,,,,600507680280831B3800000000000111,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+230,BCHLNX57_Disk02_200GB,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,214748364800,striped,,,,,600507680280831B3800000000000112,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+231,L79R_200GB_Vdisk13,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,214748364800,striped,,,,,600507680280831B3800000000000113,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+232,u121_Lun05_250Gb,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,268435456000,striped,,,232,rcrel20,600507680280831B3800000000000114,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+233,A270_5GB,0,io_grp0,online,6,Pool-AIX_Proyecto Consolidacion,5368709120,striped,,,,,600507680280831B3800000000000115,0,1,not_empty,0,no,0,6,Pool-AIX_Proyecto Consolidacion
+234,N6210_Filer1_CDLV_Dato5,0,io_grp0,online,7,Pool_NAS_N6210_proyecto Consolidacion,159987531776,striped,,,,,600507680280831B3800000000000116,0,1,empty,0,no,0,7,Pool_NAS_N6210_proyecto Consolidacion
+235,U270_80GB_Vdisk17,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,85899345920,striped,,,,,600507680280831B3800000000000117,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+236,V040_200GB,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,214748364800,striped,,,236,rcrel23,600507680280831B380000000000012E,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion
+237,V040_100GB,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,107374182400,striped,,,,,600507680280831B380000000000012F,0,1,not_empty,0,no,0,8,Pool3_Proyecto Consolidacion
+238,V040_200GB_Vdisk30,0,io_grp0,online,8,Pool3_Proyecto Consolidacion,214748364800,striped,,,,,600507680280831B3800000000000130,0,1,empty,0,no,0,8,Pool3_Proyecto Consolidacion

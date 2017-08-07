@@ -1,0 +1,80 @@
+BCSVM003
+                 21000024FF902247 2   active
+                 21000024FF9021E5 2   active
+ BCSVM003_004_5TB_VDiskA0  online                5120         5120         1 600507680280820378000000000000A0
+ BCSVM003_004_5TB_VDiskA1  online                5120         5120         1 600507680280820378000000000000A1
+ Banchapp3_10TB_Vdisk77  online               10240        10240         1 60050768028082037800000000000077
+ BANCHAPP3_4TB_Vdisk9F  online                4096         4096         1 6005076802808203780000000000009F
+ Banchapp3_2TB_Vdisk78  online                2048         2048         1 60050768028082037800000000000078
+ Banchapp3_1TB_Vdisk79  online                1024         1024         1 60050768028082037800000000000079
+ BCSVM003_004_10TB_VdiskA2  online               10240        10240         1 600507680280820378000000000000A2
+ BCSVM003_004_Vdisk_000  online               13310        13310         1 600507680280820378000000000000A3
+ BCSVM003_004_Vdisk_001  online               10750        10750         1 600507680280820378000000000000A4
+BCSVM004
+                 21000024FF902385 2   active
+                 21000024FF902564 2   active
+                 21000024FF902565 2   active
+                 21000024FF902384 2   active
+ BCSVM003_004_5TB_VDiskA0  online                5120         5120         1 600507680280820378000000000000A0
+ BCSVM003_004_5TB_VDiskA1  online                5120         5120         1 600507680280820378000000000000A1
+ Banchapp3_10TB_Vdisk77  online               10240        10240         1 60050768028082037800000000000077
+ BANCHAPP3_4TB_Vdisk9F  online                4096         4096         1 6005076802808203780000000000009F
+ Banchapp3_2TB_Vdisk78  online                2048         2048         1 60050768028082037800000000000078
+ Banchapp3_1TB_Vdisk79  online                1024         1024         1 60050768028082037800000000000079
+ BCSVM003_004_10TB_VdiskA2  online               10240        10240         1 600507680280820378000000000000A2
+ BCSVM003_004_Vdisk_000  online               13310        13310         1 600507680280820378000000000000A3
+ BCSVM003_004_Vdisk_001  online               10750        10750         1 600507680280820378000000000000A4
+l19r
+                 210100E08BA55B84 2   active
+                 210000E08B855B84 2   active
+    L19R_700GB_LUN001  online                 700          700         1 60050768028082037800000000000083
+BANCHAPP3
+                 5001438021E1779A 0  offline
+                 5001438021E1705E 0  offline
+ Banchapp3_10TB_Vdisk77  online               10240        10240         1 60050768028082037800000000000077
+ Banchapp3_2TB_Vdisk78  online                2048         2048         1 60050768028082037800000000000078
+ Banchapp3_1TB_Vdisk79  online                1024         1024         1 60050768028082037800000000000079
+ BANCHAPP3_4TB_Vdisk9F  online                4096         4096         1 6005076802808203780000000000009F
+BCSHYPERVDC02
+                 21000024FF3A4610 2   active
+                 21000024FF43D347 2   active
+BCSHYPERVDC01
+                 21000024FF3A47C6 2   active
+                 21000024FF43D127 2   active
+L85R
+                 C0507604CF3A0002 0  offline
+                 C0507604CF3A0000 2 inactive
+ L85R_L86R_800G_vdisk7D  online                 800          800         1 6005076802808203780000000000007D
+ L85R_L86R_800G_vdisk7E  online                 800          800         1 6005076802808203780000000000007E
+L86R
+                 C0507604CF3A0006 0  offline
+                 C0507604CF3A0004 2 inactive
+ L85R_L86R_800G_vdisk7D  online                 800          800         1 6005076802808203780000000000007D
+ L85R_L86R_800G_vdisk7E  online                 800          800         1 6005076802808203780000000000007E
+LZ10
+                 21000024FF45476A 2 inactive
+                 21000024FF454752 2 inactive
+    LZ10_600GB_LUN001  online                 600          600         1 60050768028082037800000000000082
+      LZ10_VDISK00001  online                   1            1         1 6005076802808203780000000000009E
+BCHAPP278
+                 10000000C9D086AF 0  offline
+                 10000000C9D086AE 0  offline
+   Bchapp278_150GB_01  online                 150          150         1 60050768028082037800000000000084
+   Bchapp278_150GB_02  online                 150          150         1 60050768028082037800000000000085
+D47R
+                 10000000C9B7984B 2 inactive
+                 10000000C9B7984A 2 inactive
+           D47R_800GB  online                 800          800         1 60050768028082037800000000000088
+U380
+                 10000000C9C8E4AC 0  offline
+                 10000000C9C8E4AD 0  offline
+                 10000000C9C2E964 0  offline
+                 10000000C9C2E965 0  offline
+U381
+                 10000000C9D20F7D 0  offline
+                 10000000C9D2100D 0  offline
+                 10000000C9D20F7C 0  offline
+                 10000000C9D2100C 0  offline
+BANCHDB3
+                 5001438000ACFEF2 0  offline
+                 5001438000ACFEF0 0  offline

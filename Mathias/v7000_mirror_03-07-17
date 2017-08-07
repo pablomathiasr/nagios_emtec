@@ -1,0 +1,38 @@
+id name    master_cluster_id master_cluster_name                 aux_cluster_id   aux_cluster_name                    primary state                   relationship_count copy_type cycling_mode freeze_time 
+0  MM_U033 00000200A020C6CE  IBM_V7000-1_Prod_Consolidacion_CDLV 00000200A0207A4C BCH_V7000_07_LGV                    master  consistent_synchronized 1                  metro                              
+1  MM_U121 00000200A020C6CE  IBM_V7000-1_Prod_Consolidacion_CDLV 00000200A0207A4C BCH_V7000_07_LGV                    master  consistent_synchronized 5                  metro                              
+2  MM_U023 00000200A0207A4C  BCH_V7000_07_LGV                    00000200A060C6BA IBM_V7000-2_Prod_Consolidacion_CDLV master  consistent_synchronized 6                  metro                              
+3  MM_U351 00000200A0207A4C  BCH_V7000_07_LGV                    00000200A060C6BA IBM_V7000-2_Prod_Consolidacion_CDLV         idling                  20                 metro                              
+4  MM_U133 00000200A060C6BA  IBM_V7000-2_Prod_Consolidacion_CDLV 00000200A0207A4C BCH_V7000_07_LGV                    master  consistent_synchronized 4                  metro                              
+5  MM_U024 00000200A020C6CE  IBM_V7000-1_Prod_Consolidacion_CDLV 00000200A0207A4C BCH_V7000_07_LGV                    aux     consistent_synchronized 2                  metro                              
+6  MM_U104 00000200A020C6CE  IBM_V7000-1_Prod_Consolidacion_CDLV 00000200A0207A4C BCH_V7000_07_LGV                    master  consistent_synchronized 2                  metro                              
+8  X174_MM 00000200A020C6CE  IBM_V7000-1_Prod_Consolidacion_CDLV 00000200A0207A4C BCH_V7000_07_LGV                            idling                  1                  metro                              
+id name   master_cluster_id master_cluster_name aux_cluster_id   aux_cluster_name          primary state                   relationship_count copy_type cycling_mode freeze_time 
+0  U315_1 00000200A04014DA  V7000_Sefe_CDLV     0000010020400F6C Cluster_V7000_G2_BCH_CDLV master  consistent_synchronized 17                 metro     none                     
+id name    master_cluster_id master_cluster_name                 aux_cluster_id   aux_cluster_name primary state                   relationship_count copy_type cycling_mode freeze_time 
+0  MM_U033 00000200A020C6CE  IBM_V7000-1_Prod_Consolidacion_CDLV 00000200A0207A4C BCH_V7000_07_LGV master  consistent_synchronized 1                  metro                              
+1  MM_U121 00000200A020C6CE  IBM_V7000-1_Prod_Consolidacion_CDLV 00000200A0207A4C BCH_V7000_07_LGV master  consistent_synchronized 5                  metro                              
+2  MM_U024 00000200A020C6CE  IBM_V7000-1_Prod_Consolidacion_CDLV 00000200A0207A4C BCH_V7000_07_LGV aux     consistent_synchronized 2                  metro                              
+3  MM_U104 00000200A020C6CE  IBM_V7000-1_Prod_Consolidacion_CDLV 00000200A0207A4C BCH_V7000_07_LGV master  consistent_synchronized 2                  metro                              
+5  X174_MM 00000200A020C6CE  IBM_V7000-1_Prod_Consolidacion_CDLV 00000200A0207A4C BCH_V7000_07_LGV         idling                  1                  metro                              
+id name    master_cluster_id master_cluster_name                 aux_cluster_id   aux_cluster_name                    primary state                   relationship_count copy_type cycling_mode 
+0  MM_U023 00000200A0207A4C  BCH_V7000_07_LGV                    00000200A060C6BA IBM_V7000-2_Prod_Consolidacion_CDLV master  consistent_synchronized 6                  metro     none         
+2  MM_U133 00000200A060C6BA  IBM_V7000-2_Prod_Consolidacion_CDLV 00000200A0207A4C BCH_V7000_07_LGV                    master  consistent_synchronized 4                  metro     none         
+3  MM_U351 00000200A0207A4C  BCH_V7000_07_LGV                    00000200A060C6BA IBM_V7000-2_Prod_Consolidacion_CDLV         idling                  20                 metro     none         
+id name         master_cluster_id master_cluster_name       aux_cluster_id   aux_cluster_name          primary state                   relationship_count copy_type   cycling_mode freeze_time 
+0  svc_nfs_xd   0000010020400F6C  Cluster_V7000_G2_BCH_CDLV 0000010020400F16 Cluster_V7000_G2_BCH_LGVL master  consistent_synchronized 18                 metro                                
+1  DMGR_Filenet 0000010020400F6C  Cluster_V7000_G2_BCH_CDLV 0000010020400F16 Cluster_V7000_G2_BCH_LGVL master  consistent_synchronized 2                  metro                                
+2  DMGR_BPM     0000010020400F6C  Cluster_V7000_G2_BCH_CDLV 0000010020400F16 Cluster_V7000_G2_BCH_LGVL master  consistent_synchronized 2                  metro                                
+3  MM_U560      0000010020400F6C  Cluster_V7000_G2_BCH_CDLV 0000010020400F16 Cluster_V7000_G2_BCH_LGVL         empty                   0                  empty_group                          
+4  MM_U561      0000010020400F6C  Cluster_V7000_G2_BCH_CDLV 0000010020400F16 Cluster_V7000_G2_BCH_LGVL master  consistent_synchronized 14                 metro                                
+5  Test_MM      0000010020400F16  Cluster_V7000_G2_BCH_LGVL 0000010020400F6C Cluster_V7000_G2_BCH_CDLV master  consistent_synchronized 1                  metro                                
+6  U315_1       00000200A04014DA  V7000_Sefe_CDLV           0000010020400F6C Cluster_V7000_G2_BCH_CDLV master  consistent_synchronized 17                 metro                                
+7  U315_MM      0000010020400F6C  Cluster_V7000_G2_BCH_CDLV 0000010020400F16 Cluster_V7000_G2_BCH_LGVL master  inconsistent_copying    51                 metro                                
+id name         master_cluster_id master_cluster_name       aux_cluster_id   aux_cluster_name          primary state                   relationship_count copy_type   cycling_mode freeze_time 
+0  svc_nfs_xd   0000010020400F6C  Cluster_V7000_G2_BCH_CDLV 0000010020400F16 Cluster_V7000_G2_BCH_LGVL master  consistent_synchronized 18                 metro                                
+1  DMGR_Filenet 0000010020400F6C  Cluster_V7000_G2_BCH_CDLV 0000010020400F16 Cluster_V7000_G2_BCH_LGVL master  consistent_synchronized 2                  metro                                
+2  DMGR_BPM     0000010020400F6C  Cluster_V7000_G2_BCH_CDLV 0000010020400F16 Cluster_V7000_G2_BCH_LGVL master  consistent_synchronized 2                  metro                                
+3  MM_U560      0000010020400F6C  Cluster_V7000_G2_BCH_CDLV 0000010020400F16 Cluster_V7000_G2_BCH_LGVL         empty                   0                  empty_group                          
+4  MM_U561      0000010020400F6C  Cluster_V7000_G2_BCH_CDLV 0000010020400F16 Cluster_V7000_G2_BCH_LGVL master  consistent_synchronized 14                 metro                                
+5  Test_MM      0000010020400F16  Cluster_V7000_G2_BCH_LGVL 0000010020400F6C Cluster_V7000_G2_BCH_CDLV master  consistent_synchronized 1                  metro                                
+6  U315_MM      0000010020400F6C  Cluster_V7000_G2_BCH_CDLV 0000010020400F16 Cluster_V7000_G2_BCH_LGVL master  inconsistent_copying    51                 metro                                

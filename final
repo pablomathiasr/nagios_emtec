@@ -1,0 +1,2 @@
+2017-02-02 164503 705 [[ACTIVE] ExecuteThread '17' for queue 'weblogic.kernel.Default (self-tuning)'] ERROR com.safesigner.abcdin.login.Login 140 - Rut no encontrado en servicio de bloqueo
+2017-02-02 164534 219 [[ACTIVE] ExecuteThread '25' for queue 'weblogic.kernel.Default (self-tuning)'] ERROR com.safesigner.abcdin.login.Login 140 - Rut no encontrado en servicio de bloqueo

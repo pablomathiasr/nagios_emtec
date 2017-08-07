@@ -1,0 +1,89 @@
+#!/bin/bash
+ssh=/usr/bin/ssh
+exitCode=0
+while getopts 'S:T:h' OPT; do
+  case $OPT in
+    S)  servicio=$OPTARG;;
+    T)  tiempo=$OPTARG;;
+    h)  help="yes";;
+    *)  unknown="yes";;
+  esac
+done
+
+HELP="
+    Usage: $0 -S [Servicio] -T Tiempo de analisis en minutos	
+
+"
+if [ "$hlp" = "yes" -o $# -lt 1 ]; then
+        echo "$HELP"
+        exit 0
+fi
+
+Error_Log=/home/pmathias/scripts/Error_Log
+archivo_log=/home/pmathias/scripts/abcdin-api.log.2017-01-24.log
+
+test=/tmp/test_$servicio
+test_emp=/tmp/test_emp_$servicio
+final=/tmp/final_$servicio
+
+
+fecha=$(date +"%Y-%m-%d")
+dia=$(date +"%H")
+
+####################################################################
+
+function f_argumento () {
+  argumento=$(cat $Error_Log | grep "$servicio" | cut -d "," -f$i)
+}
+
+function f_primero () {
+  if [[ $i -eq 1 ]]; then
+    cat $archivo_log | grep "$argumento" | grep "$servicio" > $test
+  fi
+}
+
+function f_analisis() { 
+  cat $test | grep "$argumento" | awk '$1 == "'$fecha'" { print }' | tr "," " " | tr -d ":" > $test_emp
+  cat $test_emp > $test
+  rm $test_emp
+}
+
+function f_time () { 
+
+  d1=$(date --date="-55 min" "+%H%M%S")  #### CAMBIAR ACA PARA SETEAR TIEMPO
+
+  cat $test | awk '$2 > "'$d1'" { print }' > $final
+}
+
+function f_alarma () {
+  num=$(cat $final | wc -l)
+  msg=$(cat $final)
+  if [[ $num -gt 0 ]]; then
+    echo -ne "CRITITAL - Existe $num Errores de $servicio\n$msg\n"
+  else
+    echo -ne "OK - No Existen Errores de $servicio\n"
+  fi
+}
+
+###################################################################
+
+num_arg=$(cat $Error_Log | grep "$servicio" | tr -d [:alnum:] | tr -d "."| tr -d " " | wc -c)
+
+for (( i = 1; i <= $num_arg; i++ )); do
+
+  f_argumento
+
+  f_primero
+
+  f_analisis
+  
+done
+
+f_time
+
+f_alarma
+
+rm $test
+rm $final
+
+

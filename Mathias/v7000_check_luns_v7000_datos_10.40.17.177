@@ -1,0 +1,654 @@
+LPAR_http1
+                 C0507608017A0006 1 degraded
+                 C0507608017A0004 0  offline
+                 C0507608017A0002 1 degraded
+                 C0507608017A0000 1 degraded
+        LPAR_http1_SO  online                  60           60         1 600507640081003DB000000000000000
+LPAR_http2
+                 C0507608017A000E 1 degraded
+                 C0507608017A000C 0  offline
+                 C0507608017A000A 1 degraded
+                 C0507608017A0008 1 degraded
+        LPAR_http2_SO  online                  60           60         1 600507640081003DB000000000000001
+LPAR_http3
+                 C0507608017A0016 1 degraded
+                 C0507608017A0014 1 degraded
+                 C0507608017A0012 1 degraded
+                 C0507608017A0010 1 degraded
+        LPAR_http3_SO  online                  60           60         1 600507640081003DB00000000000001E
+       http3_temporal  online                  10           10         1 600507640081003DB00000000000001F
+LPAR_CMIS1
+                 C0507608017A0036 1 degraded
+                 C0507608017A0034 0  offline
+                 C0507608017A0032 1 degraded
+                 C0507608017A0030 1 degraded
+        LPAR_CMIS1_SO  online                  60           60         1 600507640081003DB000000000000007
+LPAR_CMIS2
+                 C0507608017A003E 1 degraded
+                 C0507608017A003C 0  offline
+                 C0507608017A003A 1 degraded
+                 C0507608017A0038 1 degraded
+        LPAR_CMIS2_SO  online                  60           60         1 600507640081003DB00000000000000A
+LPAR_CMIS3
+                 C0507608017A0046 1 degraded
+                 C0507608017A0044 1 degraded
+                 C0507608017A0042 1 degraded
+                 C0507608017A0040 1 degraded
+        LPAR_CMIS3_SO  online                  60           60         1 600507640081003DB00000000000000B
+LPAR_Fnet_CPE1
+                 C0507608017A004E 1 degraded
+                 C0507608017A004C 0  offline
+                 C0507608017A004A 1 degraded
+                 C0507608017A0048 1 degraded
+    LPAR_Fnet_CPE1_SO  online                  60           60         1 600507640081003DB00000000000000C
+LPAR_Fnet_CPE2
+                 C0507608017A0056 1 degraded
+                 C0507608017A0054 0  offline
+                 C0507608017A0052 1 degraded
+                 C0507608017A0050 1 degraded
+    LPAR_Fnet_CPE2_SO  online                  60           60         1 600507640081003DB00000000000000D
+T521
+                 C0507608017A005E 1 degraded
+                 C0507608017A005C 1 degraded
+                 C0507608017A005A 1 degraded
+                 C0507608017A0058 1 degraded
+    LPAR_Fnet_CPE3_SO  online                  60           60         1 600507640081003DB00000000000000E
+LPAR_NFS1
+                 C0507608057D0006 1 degraded
+                 C0507608057D0004 0  offline
+                 C0507608057D0002 1 degraded
+                 C0507608057D0000 1 degraded
+         LPAR_NFS1_SO  online                  30           30         1 600507640081003DB00000000000000F
+    Cluster_NFS_disk1  online                 500          500         1 600507640081003DB000000000000017
+    Cluster_NFS_disk2  online                 500          500         1 600507640081003DB000000000000018
+LPAR_NFS2
+                 C0507608057D000E 1 degraded
+                 C0507608057D000C 1 degraded
+                 C0507608057D000A 1 degraded
+                 C0507608057D0008 1 degraded
+         LPAR_NFS2_SO  online                  30           30         1 600507640081003DB000000000000010
+    Cluster_NFS_disk1  online                 500          500         1 600507640081003DB000000000000017
+    Cluster_NFS_disk2  online                 500          500         1 600507640081003DB000000000000018
+L166
+                 C0507608057D001E 1 degraded
+                 C0507608057D001C 0  offline
+                 C0507608057D001A 1 degraded
+                 C0507608057D0018 1 degraded
+        LPAR_BBDD1_SO  online                  60           60         1 600507640081003DB000000000000008
+  LPAR_Fnet_DB1_db2vg  online                 400          400         1 600507640081003DB000000000000014
+  LPAR_Fnet_DB1_swap1  online                  10           10         1 600507640081003DB00000000000003F
+L167
+                 C0507608057D0022 1 degraded
+                 C0507608057D0020 1 degraded
+                 C0507608057D0026 1 degraded
+                 C0507608057D0024 0  offline
+           LPAR_BBDD2  online                  60           60         1 600507640081003DB000000000000009
+  LPAR_Fnet_DB2_db2vg  online                 400          400         1 600507640081003DB000000000000016
+  LPAR_Fnet_DB2_swap1  online                  10           10         1 600507640081003DB000000000000040
+LPAR_CMIS4
+                 C0507608017A002E 1 degraded
+                 C0507608017A002C 1 degraded
+                 C0507608017A002A 1 degraded
+                 C0507608017A0028 0  offline
+        LPAR_CMIS4_SO  online                  60           60         1 600507640081003DB000000000000019
+LPAR_http4
+                 C0507608017A001E 1 degraded
+                 C0507608017A001C 0  offline
+                 C0507608017A001A 1 degraded
+                 C0507608017A0018 1 degraded
+        LPAR_http4_SO  online                  60           60         1 600507640081003DB00000000000001A
+T522
+                 C0507608017A0026 1 degraded
+                 C0507608017A0024 1 degraded
+                 C0507608017A0022 1 degraded
+                 C0507608017A0020 1 degraded
+    LPAR_Fnet_CPE4_SO  online                  60           60         1 600507640081003DB00000000000001B
+LPAR_BPM_DB1
+                 C0507608057D0016 1 degraded
+                 C0507608057D0014 0  offline
+                 C0507608057D0012 1 degraded
+                 C0507608057D0010 1 degraded
+      LPAR_BPM_DB1_SO  online                  60           60         1 600507640081003DB00000000000001C
+    LPAR_BPM_DB1_swap  online                  10           10         1 600507640081003DB000000000000041
+   LPAR_BPM_DB1_db2vg  online                 400          400         1 600507640081003DB000000000000021
+LPAR_BPM_DB2
+                 C0507608057D002E 1 degraded
+                 C0507608057D002C 0  offline
+                 C0507608057D002A 1 degraded
+                 C0507608057D0028 1 degraded
+      LPAR_BPM_DB2_SO  online                  60           60         1 600507640081003DB00000000000001D
+    LPAR_BPM_DB2_swap  online                  10           10         1 600507640081003DB000000000000042
+   LPAR_BPM_DB2_db2vg  online                 400          400         1 600507640081003DB000000000000023
+NIM
+                 C0507608057D0032 1 degraded
+                 C0507608057D0030 1 degraded
+               NIM_SO  online                  60           60         1 600507640081003DB000000000000002
+      Repositorio_NIM  online                 100          100         1 600507640081003DB000000000000006
+            NIM-300GB  online                 300          300         1 600507640081003DB0000000000001CA
+IBM_BPM1
+                 C0507608017A00DE 1 degraded
+                 C0507608017A00DC 0  offline
+                 C0507608017A00DA 1 degraded
+                 C0507608017A00D8 1 degraded
+          IBM_BPM1_SO  online                  60           60         1 600507640081003DB000000000000030
+IBM_BPM2
+                 C0507608017A00E6 1 degraded
+                 C0507608017A00E4 0  offline
+                 C0507608017A00E2 1 degraded
+                 C0507608017A00E0 1 degraded
+          IBM_BPM2_SO  online                  60           60         1 600507640081003DB000000000000031
+IBM_BPM3
+                 C0507608017A00EE 1 degraded
+                 C0507608017A00EC 1 degraded
+                 C0507608017A00EA 0  offline
+                 C0507608017A00E8 1 degraded
+          IBM_BPM3_SO  online                  60           60         1 600507640081003DB000000000000032
+IBM_BPM4
+                 C0507608017A00F6 1 degraded
+                 C0507608017A00F4 0  offline
+                 C0507608017A00F2 1 degraded
+                 C0507608017A00F0 1 degraded
+          IBM_BPM4_SO  online                  60           60         1 600507640081003DB000000000000033
+IBM_BPM5
+                 C0507608017A00FE 1 degraded
+                 C0507608017A00FC 1 degraded
+                 C0507608017A00FA 1 degraded
+                 C0507608017A00F8 1 degraded
+          IBM_BPM5_SO  online                  60           60         1 600507640081003DB000000000000034
+IBM_BPM6
+                 C0507608017A0106 1 degraded
+                 C0507608017A0104 1 degraded
+                 C0507608017A0102 1 degraded
+                 C0507608017A0100 1 degraded
+          IBM_BPM6_SO  online                  60           60         1 600507640081003DB00000000000003D
+IBM_BPM7
+                 C0507608017A013E 1 degraded
+                 C0507608017A013C 1 degraded
+                 C0507608017A013A 1 degraded
+                 C0507608017A0138 0  offline
+          IBM_BPM7_SO  online                  60           60         1 600507640081003DB000000000000026
+IBM_BPM8
+                 C0507608017A0146 1 degraded
+                 C0507608017A0144 0  offline
+                 C0507608017A0142 1 degraded
+                 C0507608017A0140 1 degraded
+          IBM_BPM8_SO  online                  60           60         1 600507640081003DB00000000000002F
+U531
+                 C0507608018C002C 2   active
+                 C0507608018C002A 2   active
+                 C0507608018C0028 2   active
+                 C0507608018C002E 2   active
+  U531_50GB_1_Vdisk94  online                  50           50         1 600507640081003DB000000000000094
+  U531_50GB_2_Vdisk95  online                  50           50         1 600507640081003DB000000000000095
+  U531_50GB_3_Vdisk96  online                  50           50         1 600507640081003DB000000000000096
+  U531_50GB_4_Vdisk97  online                  50           50         1 600507640081003DB000000000000097
+    U531_30GB_VdiskAF  online                  30           30         1 600507640081003DB0000000000000AF
+   U531_150GB_VdiskD0  online                 150          150         1 600507640081003DB0000000000000D0
+ U531_150GB_5_VdiskD1  online                 150          150         1 600507640081003DB0000000000000D1
+   U531_100GB_VdiskDA  online                 100          100         1 600507640081003DB0000000000000DA
+   U531_200GB_VdiskDB  online                 200          200         1 600507640081003DB0000000000000DB
+   U531_500GB_VdiskDC  online                 500          500         1 600507640081003DB0000000000000DC
+IBM_HTTP_BPM1
+                 C0507608017A010E 1 degraded
+                 C0507608017A010C 0  offline
+                 C0507608017A010A 1 degraded
+                 C0507608017A0108 1 degraded
+     IBM_HTTP_BPM1_SO  online                  30           30         1 600507640081003DB000000000000039
+IBM_HTTP_BPM2
+                 C0507608017A0116 1 degraded
+                 C0507608017A0114 1 degraded
+                 C0507608017A0112 1 degraded
+                 C0507608017A0110 1 degraded
+     IBM_HTTP_BPM2_SO  online                  30           30         1 600507640081003DB00000000000003A
+IBM_HTTP_BPM3
+                 C0507608017A011E 1 degraded
+                 C0507608017A011C 1 degraded
+                 C0507608017A011A 1 degraded
+                 C0507608017A0118 1 degraded
+     IBM_HTTP_BPM3_SO  online                  30           30         1 600507640081003DB00000000000003B
+IBM_HTTP_BPM4
+                 C0507608017A0126 1 degraded
+                 C0507608017A0124 1 degraded
+                 C0507608017A0122 1 degraded
+                 C0507608017A0120 1 degraded
+     IBM_HTTP_BPM4_SO  online                  30           30         1 600507640081003DB00000000000003C
+U544
+                 C0507608017A012E 1 degraded
+                 C0507608017A012C 1 degraded
+                 C0507608017A012A 1 degraded
+                 C0507608017A0128 1 degraded
+     IBM_HTTP_BPM5_SO  online                  30           30         1 600507640081003DB000000000000029
+U545
+                 C0507608017A0136 1 degraded
+                 C0507608017A0134 1 degraded
+                 C0507608017A0132 1 degraded
+                 C0507608017A0130 0  offline
+     IBM_HTTP_BPM6_SO  online                  30           30         1 600507640081003DB00000000000002A
+LPAR_BPM_DB3
+                 C0507608057D003A 1 degraded
+                 C0507608057D0038 1 degraded
+                 C0507608057D0036 1 degraded
+                 C0507608057D0034 1 degraded
+      LPAR_BPM_DB3_SO  online                  60           60         1 600507640081003DB000000000000025
+   LPAR_BPM_DB3_db2vg  online                 400          400         1 600507640081003DB00000000000002D
+    LPAR_BPM_DB3_swap  online                  10           10         1 600507640081003DB000000000000043
+U512
+                 C0507608018C0002 2   active
+                 C0507608018C0000 2   active
+           CMIS_02_SO  online                  80           80         1 600507640081003DB00000000000005A
+       CMIS_02_Paging  online                   8            8         1 600507640081003DB00000000000005B
+DMGR_01
+                 C0507608018C0006 2   active
+                 C0507608018C0004 2   active
+           DMGR_01_SO  online                  60           60         600507640081003DB00000000000005C 72
+       DMGR_01_Paging  online                   4            4         600507640081003DB00000000000005D 73
+U514
+                 C0507608018C000A 2   active
+                 C0507608018C0008 2   active
+    FILENET_CPE_02_SO  online                 100          100         1 600507640081003DB00000000000005E
+ FILENET_CPE_02_Paging  online                  12           12         1 600507640081003DB00000000000005F
+            U514_10GB  online                  10           10         1 600507640081003DB0000000000000D8
+U516
+                 C0507608018C000E 2   active
+                 C0507608018C000C 2   active
+   FILENET_HTTP_02_SO  online                  70           70         1 600507640081003DB000000000000060
+ FILENET_HTTP_02_Paging  online                   4            4         1 600507640081003DB000000000000061
+U511
+                 C05076080182000E 2   active
+                 C05076080182000C 2   active
+           CMIS_01_SO  online                  80           80         1 600507640081003DB00000000000004C
+       CMIS_01_Paging  online                   8            8         1 600507640081003DB00000000000004D
+U513
+                 C050760801820012 2   active
+                 C050760801820010 2   active
+    FILENET_CPE_01_SO  online                 100          100         1 600507640081003DB00000000000004E
+ FILENET_CPE_01_Paging  online                  12           12         1 600507640081003DB000000000000062
+            U513_10GB  online                  10           10         1 600507640081003DB0000000000000D9
+U515
+                 C050760801820016 2   active
+                 C050760801820014 2   active
+   FILENET_HTTP_01_SO  online                  70           70         1 600507640081003DB000000000000050
+ FILENET_HTTP_01_Paging  online                   4            4         1 600507640081003DB000000000000051
+U519
+                 C0507608017F001A 2   active
+                 C0507608017F0018 2   active
+         BPM_DB_02_SO  online                  40           40         1 600507640081003DB000000000000053
+     BPM_DB_02_Paging  online                  16           16         1 600507640081003DB000000000000054
+       BPM_DB_02_Data  online                 365          365         1 600507640081003DB000000000000052
+FILENET_DB_02
+                 C0507608017F001E 2   active
+                 C0507608017F001C 2   active
+     FILENET_DB_02_SO  online                  40           40         1 600507640081003DB000000000000056
+ FILENET_DB_02_Paging  online                  16           16         1 600507640081003DB000000000000057
+   FILENET_DB_02_Data  online                 365          365         1 600507640081003DB000000000000055
+   FILENET_DB_02_paso  online                  30           30         1 600507640081003DB00000000000008A
+   U521_100GB_VDisk7C  online                 100          100         1 600507640081003DB00000000000017C
+U524
+                 C0507608017F0022 2   active
+                 C0507608017F0020 2   active
+            NFS_02_SO  online                  40           40         1 600507640081003DB000000000000058
+        NFS_02_Paging  online                  16           16         1 600507640081003DB000000000000059
+ Cluster_nfs_prd-lun01  online                 200          200         600507640081003DB00000000000007B 102
+       Cluster_NFS_hb  online                   0            0         1 600507640081003DB00000000000007A
+ Cluster_nfs_prd-lun02  online                 200          200         600507640081003DB00000000000007E 78
+ Cluster_nfs_prd-lun03  online                 200          200         600507640081003DB00000000000007F 103
+ Cluster_nfs_prd-lun04  online                 200          200         600507640081003DB000000000000080 104
+ Cluster_nfs_prd-lun05  online                 200          200         600507640081003DB000000000000081 105
+ Cluster_nfs_prd-lun06  online                 200          200         600507640081003DB000000000000082 106
+ Cluster_nfs_prd-lun07  online                 200          200         600507640081003DB000000000000083 107
+ Cluster_nfs_prd-lun08  online                 200          200         600507640081003DB000000000000084 108
+ Cluster_nfs_prd-lun09  online                 200          200         600507640081003DB000000000000085 109
+ Cluster_nfs_prd-lun10  online                 200          200         600507640081003DB00000000000008D 110
+ Cluster_nfs_prd-lun11  online                 200          200         600507640081003DB00000000000008E 111
+ Cluster_nfs_prd-lun12  online                 200          200         600507640081003DB00000000000008F 112
+ Cluster_nfs_prd-lun13  online                 200          200         600507640081003DB000000000000090 115
+ Cluster_nfs_prd-lun14  online                 200          200         600507640081003DB000000000000091 116
+ Cluster_nfs_prd-lun15  online                 200          200         600507640081003DB000000000000092 117
+ Cluster_nfs_prd-luntest  online                  10           10         1 600507640081003DB000000000000093
+ Cluster_nfs_prd-lun16  online                2560         2560         600507640081003DB0000000000000BA 156
+ Cluster_nfs_prd-lun17  online                2560         2560         600507640081003DB0000000000000BB 157
+ Cluster_nfs_prd-lun18  online                2560         2560         600507640081003DB0000000000001CC 212
+U518
+                 C0507608017B001E 2   active
+                 C0507608017B001C 2   active
+         BPM_DB_01_SO  online                  40           40         1 600507640081003DB000000000000045
+     BPM_DB_01_Paging  online                  16           16         1 600507640081003DB000000000000046
+       BPM_DB_01_Data  online                 365          365         1 600507640081003DB000000000000044
+FILENET_DB_01
+                 C0507608017B0022 2   active
+                 C0507608017B0020 2   active
+     FILENET_DB_01_SO  online                  40           40         1 600507640081003DB000000000000048
+ FILENET_DB_01_Paging  online                  16           16         1 600507640081003DB000000000000049
+   FILENET_DB_01_Data  online                 365          365         1 600507640081003DB000000000000047
+   U520_100GB_VDisk7B  online                 100          100         1 600507640081003DB00000000000017B
+U523
+                 C0507608017B0026 2   active
+                 C0507608017B0024 2   active
+            NFS_01_SO  online                  40           40         1 600507640081003DB00000000000004A
+        NFS_01_Paging  online                  16           16         1 600507640081003DB00000000000004B
+ Cluster_nfs_prd-lun01  online                 200          200         600507640081003DB00000000000007B 102
+       Cluster_NFS_hb  online                   0            0         1 600507640081003DB00000000000007A
+ Cluster_nfs_prd-lun02  online                 200          200         600507640081003DB00000000000007E 78
+ Cluster_nfs_prd-lun03  online                 200          200         600507640081003DB00000000000007F 103
+ Cluster_nfs_prd-lun04  online                 200          200         600507640081003DB000000000000080 104
+ Cluster_nfs_prd-lun05  online                 200          200         600507640081003DB000000000000081 105
+ Cluster_nfs_prd-lun06  online                 200          200         600507640081003DB000000000000082 106
+ Cluster_nfs_prd-lun07  online                 200          200         600507640081003DB000000000000083 107
+ Cluster_nfs_prd-lun08  online                 200          200         600507640081003DB000000000000084 108
+ Cluster_nfs_prd-lun09  online                 200          200         600507640081003DB000000000000085 109
+ Cluster_nfs_prd-lun10  online                 200          200         600507640081003DB00000000000008D 110
+ Cluster_nfs_prd-lun11  online                 200          200         600507640081003DB00000000000008E 111
+ Cluster_nfs_prd-lun12  online                 200          200         600507640081003DB00000000000008F 112
+ Cluster_nfs_prd-lun13  online                 200          200         600507640081003DB000000000000090 115
+ Cluster_nfs_prd-lun14  online                 200          200         600507640081003DB000000000000091 116
+ Cluster_nfs_prd-lun15  online                 200          200         600507640081003DB000000000000092 117
+ Cluster_nfs_prd-luntest  online                  10           10         1 600507640081003DB000000000000093
+ Cluster_nfs_prd-lun16  online                2560         2560         600507640081003DB0000000000000BA 156
+ Cluster_nfs_prd-lun17  online                2560         2560         600507640081003DB0000000000000BB 157
+ Cluster_nfs_prd-lun18  online                2560         2560         600507640081003DB0000000000001CC 212
+U528
+                 C0507608018C0012 2   active
+                 C0507608018C0010 2   active
+      IBM_PRD_BPM4_SO  online                 110          110         1 600507640081003DB000000000000067
+  IBM_PRD_BPM4_Paging  online                   8            8         1 600507640081003DB000000000000072
+U529
+                 C0507608018C0016 2   active
+                 C0507608018C0014 2   active
+      IBM_PRD_BPM5_SO  online                 110          110         1 600507640081003DB000000000000068
+  IBM_PRD_BPM5_Paging  online                   8            8         1 600507640081003DB000000000000073
+U530
+                 C0507608018C001A 2   active
+                 C0507608018C0018 2   active
+      IBM_PRD_BPM6_SO  online                 110          110         1 600507640081003DB000000000000069
+  IBM_PRD_BPM6_Paging  online                   8            8         1 600507640081003DB000000000000074
+U542
+                 C0507608018C001E 2   active
+                 C0507608018C001C 2   active
+ IBM_PRD_HTTP_BPM3_SO  online                  90           90         1 600507640081003DB00000000000006C
+ IBM_PRD_HTTP_BPM3_Paging  online                   3            3         1 600507640081003DB000000000000077
+U543
+                 C0507608018C0022 2   active
+                 C0507608018C0020 2   active
+ IBM_PRD_HTTP_BPM4_SO  online                  90           90         1 600507640081003DB00000000000006D
+ IBM_PRD_HTTP_BPM4_Paging  online                   3            3         1 600507640081003DB000000000000078
+dmgr_bpm_01
+                 C0507608018C0026 2   active
+                 C0507608018C0024 2   active
+       DMGR_BPM_01_SO  online                 100          100         600507640081003DB00000000000006E 89
+   DMGR_BPM_01_Paging  online                   4            4         600507640081003DB000000000000079 100
+U525
+                 C05076080182001A 2   active
+                 C050760801820018 2   active
+      IBM_PRD_BPM1_SO  online                 110          110         1 600507640081003DB000000000000064
+  IBM_PRD_BPM1_Paging  online                   8            8         1 600507640081003DB00000000000006F
+U526
+                 C05076080182001E 2   active
+                 C05076080182001C 2   active
+      IBM_PRD_BPM2_SO  online                 110          110         1 600507640081003DB000000000000065
+  IBM_PRD_BPM2_Paging  online                   8            8         1 600507640081003DB000000000000070
+U527
+                 C050760801820022 2   active
+                 C050760801820020 2   active
+      IBM_PRD_BPM3_SO  online                 110          110         1 600507640081003DB000000000000066
+  IBM_PRD_BPM3_Paging  online                   8            8         1 600507640081003DB000000000000071
+U540
+                 C050760801820026 2   active
+                 C050760801820024 2   active
+ IBM_PRD_HTTP_BPM1_SO  online                  90           90         1 600507640081003DB00000000000006A
+ IBM_PRD_HTTP_BPM1_Paging  online                   3            3         1 600507640081003DB000000000000075
+U541
+                 C05076080182002A 2   active
+                 C050760801820028 2   active
+ IBM_PRD_HTTP_BPM2_SO  online                  90           90         1 600507640081003DB00000000000006B
+ IBM_PRD_HTTP_BPM2_Paging  online                   3            3         1 600507640081003DB000000000000076
+U532
+                 C050760801820030 2   active
+                 C05076080182002E 2   active
+                 C050760801820032 2   active
+                 C05076080182002C 2   active
+    U532_50GB_VdiskAA  online                  50           50         1 600507640081003DB0000000000000AA
+    U532_50GB_VdiskAB  online                  50           50         1 600507640081003DB0000000000000AB
+    U532_50GB_VdiskAC  online                  50           50         1 600507640081003DB0000000000000AC
+    U532_50GB_VdiskAD  online                  50           50         1 600507640081003DB0000000000000AD
+    U532_30GB_VdiskAE  online                  30           30         1 600507640081003DB0000000000000AE
+   U532_100GB_VdiskDD  online                 100          100         1 600507640081003DB0000000000000DD
+   U532_200GB_VdiskDE  online                 200          200         1 600507640081003DB0000000000000DE
+   U532_500GB_VdiskDF  online                 500          500         1 600507640081003DB0000000000000DF
+U533
+                 C0507608017F002A 2   active
+                 C0507608017F0024 2   active
+                 C0507608017F0028 2   active
+                 C0507608017F0026 2   active
+   U533_100GB_VdiskB0  online                 100          100         1 600507640081003DB0000000000000B0
+   U533_100GB_VdiskB1  online                 100          100         1 600507640081003DB0000000000000B1
+   U533_100GB_VdiskB2  online                 100          100         1 600507640081003DB0000000000000B2
+   U533_100GB_VdiskB3  online                 100          100         1 600507640081003DB0000000000000B3
+   U533_100GB_VdiskB4  online                 100          100         1 600507640081003DB0000000000000B4
+   U533_100GB_VdiskB5  online                 100          100         1 600507640081003DB0000000000000B5
+   U533_100GB_VdiskB6  online                 100          100         1 600507640081003DB0000000000000B6
+   U533_100GB_VdiskB7  online                 100          100         1 600507640081003DB0000000000000B7
+    U533_50GB_VdiskB8  online                  50           50         1 600507640081003DB0000000000000B8
+    U533_30GB_VdiskB9  online                  30           30         1 600507640081003DB0000000000000B9
+L204
+                 C0507608057D0048 1 degraded
+                 C0507608057D0046 2   active
+                 C0507608057D0044 2   active
+                 C0507608057D004A 2   active
+    L204_50GB_Vdisk98  online                  50           50         1 600507640081003DB000000000000098
+    L204_50GB_Vdisk99  online                  50           50         1 600507640081003DB000000000000099
+    L204_50GB_Vdisk9A  online                  50           50         1 600507640081003DB00000000000009A
+    L204_15GB_Vdisk9B  online                  15           15         1 600507640081003DB00000000000009B
+   L204_120GB_Vdisk04  online                 120          120         1 600507640081003DB00000000000017D
+L205
+                 C0507608057D004C 1 degraded
+                 C0507608057D0052 1 degraded
+                 C0507608057D004E 2   active
+                 C0507608057D0050 2   active
+    L205_50GB_Vdisk9C  online                  50           50         1 600507640081003DB00000000000009C
+    L205_50GB_Vdisk9D  online                  50           50         1 600507640081003DB00000000000009D
+    L205_50GB_Vdisk9E  online                  50           50         1 600507640081003DB00000000000009E
+    L205_15GB_Vdisk9F  online                  15           15         1 600507640081003DB00000000000009F
+L206
+                 C0507608057D0040 1 degraded
+                 C0507608057D003E 1 degraded
+                 C0507608057D0042 2   active
+                 C0507608057D003C 2   active
+   L206_100GB_VdiskA0  online                 100          100         1 600507640081003DB0000000000000A0
+   L206_100GB_VdiskA1  online                 100          100         1 600507640081003DB0000000000000A1
+   L206_100GB_VdiskA2  online                 100          100         1 600507640081003DB0000000000000A2
+   L206_100GB_VdiskA3  online                 100          100         1 600507640081003DB0000000000000A3
+   L206_100GB_VdiskA4  online                 100          100         1 600507640081003DB0000000000000A4
+   L206_100GB_VdiskA5  online                 100          100         1 600507640081003DB0000000000000A5
+   L206_100GB_VdiskA6  online                 100          100         1 600507640081003DB0000000000000A6
+   L206_100GB_VdiskA7  online                 100          100         1 600507640081003DB0000000000000A7
+    L206_15GB_VdiskA8  online                  15           15         1 600507640081003DB0000000000000A8
+    L206_50GB_VdiskA9  online                  50           50         1 600507640081003DB0000000000000A9
+U315_NEW
+                 C050760926490002 2   active
+                 C050760926490000 2   active
+ DS_Eng1_Prod_100GB_VdiskBC  online                 100          100         1 600507640081003DB0000000000000BC
+      Engine1_10GB_00  online                  10           10         1 600507640081003DB000000000000155
+      Engine1_10GB_01  online                  10           10         1 600507640081003DB000000000000156
+      Engine1_10GB_02  online                  10           10         1 600507640081003DB000000000000157
+      Engine1_50GB_03  online                  50           50         600507640081003DB000000000000158 310
+     Engine1_100GB_04  online                 100          100         1 600507640081003DB00000000000015D
+     Engine1_100GB_05  online                 100          100         1 600507640081003DB00000000000015E
+     Engine1_100GB_06  online                 100          100         1 600507640081003DB00000000000015F
+     Engine1_100GB_07  online                 100          100         1 600507640081003DB000000000000160
+   Engine1_Prod_LUN01  online                  32           32         600507640081003DB00000000000017F 344
+   Engine1_Prod_LUN02  online                  50           50         600507640081003DB000000000000180 345
+   Engine1_Prod_LUN03  online                  50           50         600507640081003DB000000000000181 346
+   Engine1_Prod_LUN04  online                  50           50         600507640081003DB000000000000182 347
+   Engine1_Prod_LUN05  online                  50           50         600507640081003DB000000000000183 348
+   Engine1_Prod_LUN06  online                 100          100         600507640081003DB000000000000184 349
+   Engine1_Prod_LUN07  online                  50           50         600507640081003DB000000000000185 350
+   Engine1_Prod_LUN08  online                  50           50         600507640081003DB000000000000186 351
+   Engine1_Prod_LUN09  online                  50           50         600507640081003DB000000000000187 352
+   Engine1_Prod_LUN10  online                  50           50         600507640081003DB000000000000188 353
+   Engine1_Prod_LUN11  online                 100          100         600507640081003DB000000000000189 354
+   Engine1_Prod_LUN12  online                 100          100         600507640081003DB00000000000018A 355
+   Engine1_Prod_LUN13  online                 100          100         600507640081003DB00000000000018B 356
+   Engine1_Prod_LUN14  online                 100          100         600507640081003DB00000000000018C 357
+   Engine1_Prod_LUN15  online                 100          100         600507640081003DB00000000000018D 358
+   Engine1_Prod_LUN16  online                 100          100         600507640081003DB00000000000018E 359
+   Engine1_Prod_LUN17  online                 100          100         600507640081003DB00000000000018F 360
+   Engine1_Prod_LUN18  online                 100          100         600507640081003DB000000000000190 361
+   Engine1_Prod_LUN19  online                 100          100         600507640081003DB000000000000191 362
+   Engine1_Prod_LUN20  online                 100          100         600507640081003DB000000000000192 363
+   Engine1_Prod_LUN21  online                 100          100         600507640081003DB000000000000193 364
+   Engine1_Prod_LUN22  online                 100          100         600507640081003DB000000000000194 365
+   Engine1_Prod_LUN23  online                 100          100         600507640081003DB000000000000195 366
+   Engine1_Prod_LUN24  online                 100          100         600507640081003DB000000000000196 367
+   Engine1_Prod_LUN25  online                 100          100         600507640081003DB000000000000197 368
+   Engine1_Prod_LUN26  online                 100          100         600507640081003DB000000000000198 369
+   Engine1_Prod_LUN27  online                 100          100         600507640081003DB000000000000199 370
+   Engine1_Prod_LUN28  online                 100          100         600507640081003DB00000000000019A 371
+   Engine1_Prod_LUN29  online                 100          100         600507640081003DB00000000000019B 372
+   Engine1_Prod_LUN30  online                 100          100         600507640081003DB00000000000019C 373
+   Engine1_Prod_LUN31  online                 100          100         600507640081003DB00000000000019D 374
+   Engine1_Prod_LUN32  online                 100          100         600507640081003DB00000000000019E 375
+   Engine1_Prod_LUN33  online                 100          100         600507640081003DB00000000000019F 376
+    U560_Prod_100GB_1  online                 100          100         1 600507640081003DB0000000000001AE
+    U560_Prod_100GB_2  online                 100          100         1 600507640081003DB0000000000001AF
+    U560_Prod_100GB_3  online                 100          100         1 600507640081003DB0000000000001B0
+    U560_Prod_100GB_4  online                 100          100         1 600507640081003DB0000000000001B1
+    U560_Prod_100GB_5  online                 100          100         1 600507640081003DB0000000000001B2
+    U560_Prod_100GB_6  online                 100          100         1 600507640081003DB0000000000001B3
+    U560_Prod_100GB_7  online                 100          100         1 600507640081003DB0000000000001B4
+    U560_Prod_100GB_8  online                 100          100         1 600507640081003DB0000000000001B5
+    U560_Prod_100GB_9  online                 100          100         1 600507640081003DB0000000000001B6
+   U560_Prod_100GB_10  online                 100          100         1 600507640081003DB0000000000001B7
+   U560_Prod_100GB_11  online                 100          100         1 600507640081003DB0000000000001B8
+   U560_Prod_100GB_12  online                 100          100         1 600507640081003DB0000000000001B9
+   U560_Prod_100GB_13  online                 100          100         1 600507640081003DB0000000000001BA
+   U560_Prod_100GB_14  online                 100          100         1 600507640081003DB0000000000001BB
+   U560_Prod_100GB_15  online                 100          100         1 600507640081003DB0000000000001BC
+   U560_Prod_100GB_16  online                 100          100         1 600507640081003DB0000000000001BD
+   U560_Prod_100GB_17  online                 100          100         1 600507640081003DB0000000000001BE
+   U560_Prod_100GB_18  online                 100          100         1 600507640081003DB0000000000001BF
+   U560_Prod_100GB_19  online                 100          100         1 600507640081003DB0000000000001C0
+   U560_Prod_100GB_20  online                 100          100         1 600507640081003DB0000000000001C1
+   U560_Prod_100GB_21  online                 100          100         1 600507640081003DB0000000000001C2
+   U560_Prod_100GB_22  online                 100          100         1 600507640081003DB0000000000001C3
+   U560_Prod_100GB_23  online                 100          100         1 600507640081003DB0000000000001C4
+   U560_Prod_100GB_24  online                 100          100         1 600507640081003DB0000000000001C5
+   U560_Prod_100GB_25  online                 100          100         1 600507640081003DB0000000000001C6
+   U560_Prod_100GB_26  online                 100          100         1 600507640081003DB0000000000001C7
+ U315_100GB_1_VDisk0A  online                 100          100         1 600507640081003DB00000000000020A
+ U315_100GB_2_VDisk0B  online                 100          100         1 600507640081003DB00000000000020B
+ U315_100GB_3_VDisk0C  online                 100          100         1 600507640081003DB00000000000020C
+ U315_100GB_4_VDisk0D  online                 100          100         1 600507640081003DB00000000000020D
+ U315_100GB_5_VDisk0E  online                 100          100         1 600507640081003DB00000000000020E
+ U315_100GB_6_VDisk0F  online                 100          100         1 600507640081003DB00000000000020F
+Ds_Engine2_Prod
+                 C050760926490008 2   active
+                 C05076092649000A 2   active
+ Ds_Engine2_Prod_100GB  online                 100          100         1 600507640081003DB0000000000000C7
+      Engine2_10GB_00  online                  10           10         1 600507640081003DB000000000000161
+      Engine2_10GB_01  online                  10           10         1 600507640081003DB000000000000162
+      Engine2_10GB_02  online                  10           10         1 600507640081003DB000000000000163
+      Engine2_50GB_03  online                  50           50         1 600507640081003DB000000000000164
+     Engine2_100GB_04  online                 100          100         1 600507640081003DB000000000000165
+     Engine2_100GB_05  online                 100          100         1 600507640081003DB000000000000166
+     Engine2_100GB_06  online                 100          100         1 600507640081003DB000000000000167
+     Engine2_100GB_07  online                 100          100         1 600507640081003DB000000000000168
+   Engine2_Prod_LUN01  online                  32           32         600507640081003DB0000000000001A0 377
+   Engine2_Prod_LUN02  online                 100          100         600507640081003DB0000000000001A1 378
+   Engine2_Prod_LUN03  online                 100          100         600507640081003DB0000000000001A2 379
+   Engine2_Prod_LUN04  online                 100          100         600507640081003DB0000000000001A3 380
+   Engine2_Prod_LUN05  online                 100          100         600507640081003DB0000000000001A4 381
+   Engine2_Prod_LUN06  online                 100          100         600507640081003DB0000000000001A5 382
+   Engine2_Prod_LUN07  online                 100          100         600507640081003DB0000000000001A6 383
+   Engine2_Prod_LUN08  online                 100          100         600507640081003DB0000000000001A7 384
+   Engine2_Prod_LUN09  online                 100          100         600507640081003DB0000000000001A8 385
+   Engine2_Prod_LUN10  online                 100          100         600507640081003DB0000000000001A9 386
+   Engine2_Prod_LUN11  online                 100          100         600507640081003DB0000000000001AA 387
+   Engine2_Prod_LUN12  online                 100          100         600507640081003DB0000000000001AB 388
+   Engine2_Prod_LUN13  online                 100          100         600507640081003DB0000000000001AC 389
+   Engine2_Prod_LUN14  online                 100          100         600507640081003DB0000000000001AD 390
+Metadatos_Cont
+                 C050760848740002 0  offline
+                 C050760848740000 0  offline
+ Metadatos_Cont_100GB_Vdisk  online                 100          100         1 600507640081003DB0000000000000BD
+Metadatos_Prod
+                 C0507609264A0002 2   active
+                 C0507609264A0000 2   active
+ Metadatos_Prod_100GB  online                 100          100         1 600507640081003DB0000000000000C2
+    Metadatos_30GB_00  online                  30           30         1 600507640081003DB00000000000017A
+        Vdisk_U565_00  online                 100          100         1 600507640081003DB0000000000001C8
+V064
+                 10000090FABD226D 2   active
+                 10000090FABD3200 2   active
+  Vios1_21597DW_100GB  online                 100          100         1 600507640081003DB0000000000000C9
+Ds_App_Cont
+                 C05076084874000A 0  offline
+                 C050760848740008 0  offline
+    Ds_App_Cont_100GB  online                 100          100         1 600507640081003DB0000000000000BE
+Ds_Engine4_Cont
+                 C050760848740012 0  offline
+                 C050760848740014 0  offline
+ Ds_Engine4_Cont_100GB  online                 100          100         1 600507640081003DB0000000000000BF
+V070
+                 10000090FA8C1002 0  offline
+                 10000090FA8C1035 0  offline
+  Vios1_21AAB0V_100GB  online                 100          100         1 600507640081003DB0000000000000C0
+V071
+                 10000090FA8C45CB 0  offline
+                 10000090FA8C3F22 0  offline
+  Vios2_21AAB0V_100GB  online                 100          100         1 600507640081003DB0000000000000C1
+Ds_App_Prod
+                 C0507609264A0008 2   active
+                 C0507609264A000A 2   active
+    Ds_App_Prod_100GB  online                 100          100         1 600507640081003DB0000000000000C3
+          App_30GB_00  online                  30           30         1 600507640081003DB000000000000179
+Ds_Engine4_Prod
+                 C0507609264A0014 0  offline
+                 C0507609264A0012 0  offline
+ Ds_Engine4_Prod_100GB  online                 100          100         1 600507640081003DB0000000000000C4
+      Engine4_10GB_00  online                  10           10         1 600507640081003DB000000000000171
+      Engine4_10GB_01  online                  10           10         1 600507640081003DB000000000000172
+      Engine4_10GB_02  online                  10           10         1 600507640081003DB000000000000173
+      Engine4_50GB_03  online                  50           50         1 600507640081003DB000000000000174
+     Engine4_100GB_04  online                 100          100         1 600507640081003DB000000000000175
+     Engine4_100GB_05  online                 100          100         1 600507640081003DB000000000000176
+     Engine4_100GB_06  online                 100          100         1 600507640081003DB000000000000177
+     Engine4_100GB_07  online                 100          100         1 600507640081003DB000000000000178
+V066
+                 10000090FABD2A29 2   active
+                 10000090FABD0C92 2   active
+  Vios1_21597EW_100GB  online                 100          100         1 600507640081003DB0000000000000C5
+V067
+                 10000090FABD1889 2   active
+                 10000090FABD231E 2   active
+  Vios2_21597EW_100GB  online                 100          100         1 600507640081003DB0000000000000C6
+Ds_Engine3_Prod
+                 C050760926490014 0  offline
+                 C050760926490012 0  offline
+ Ds_Engine3_Prod_100GB  online                 100          100         1 600507640081003DB0000000000000C8
+      Engine3_10GB_00  online                  10           10         1 600507640081003DB000000000000169
+      Engine3_10GB_01  online                  10           10         1 600507640081003DB00000000000016A
+      Engine3_10GB_02  online                  10           10         1 600507640081003DB00000000000016B
+      Engine3_50GB_03  online                  50           50         1 600507640081003DB00000000000016C
+     Engine3_100GB_04  online                 100          100         1 600507640081003DB00000000000016D
+     Engine3_100GB_05  online                 100          100         1 600507640081003DB00000000000016E
+     Engine3_100GB_06  online                 100          100         1 600507640081003DB00000000000016F
+     Engine3_100GB_07  online                 100          100         1 600507640081003DB000000000000170
+V065
+                 10000090FABD3253 2   active
+                 10000090FABD16CC 2   active
+  Vios2_21597DW_100GB  online                 100          100         1 600507640081003DB0000000000000CA
+VPLEX_CDLV
+                 5000144290488111 2 inactive
+                 5000144290488110 2 inactive
+                 500014429046E511 2 inactive
+                 500014429046E510 2 inactive
+                 5000144280488111 2 inactive
+                 5000144280488110 2 inactive
+                 500014428046E511 2 inactive
+                 500014428046E510 2 inactive
+V068
+                 10000090FABD2FD1 0  offline
+                 10000090FABD322C 0  offline
+V069
+                 10000090FABD323D 0  offline
+                 10000090FABD324E 0  offline

@@ -1,0 +1,536 @@
+N6210_Filer1_Prod_CDLV
+                 500A0981008437F8 2   active
+                 500A0980008437F8 2   active
+ N6210_Filer1_Prod_aggr0_root  online                   0           80         0 striped
+ N6210_Filer1_CDLV_Dato1  online                   0         1900         0 striped
+ N6210_Filer1_CDLV_Dato2  online                   0         1900         0 striped
+ N6210_Filer1_CDLV_Dato3  online                   0         1900         0 striped
+ N6210_Filer1_CDLV_Dato4  online                   0          100         0 striped
+ N6210_Filer1_CDLV_Dato5  online                   0          149         0 striped
+ N6210_Filer1_CDLV_Dato6  online                   0          250         0 striped
+N6210_Flier2_Prod_CDLV
+                 500A098100842138 2   active
+                 500A098000842138 2   active
+ N6210_Filer1_Prod_aggr0_root  online                   0           80         0 striped
+ N6210_Filer1_CDLV_Dato1  online                   0         1900         0 striped
+ N6210_Filer1_CDLV_Dato2  online                   0         1900         0 striped
+ N6210_Filer1_CDLV_Dato3  online                   0         1900         0 striped
+ N6210_Filer1_CDLV_Dato4  online                   0          100         0 striped
+ N6210_Filer1_CDLV_Dato5  online                   0          149         0 striped
+ N6210_Filer1_CDLV_Dato6  online                   0          250         0 striped
+U121
+                 210100E08BA5F183 0  offline
+                 210000E08B85F183 2   active
+      u121_Lun01_50Gb  online                   0           50         rcrel1 striped
+      u121_Lun02_50Gb  online                   0           50         rcrel2 striped
+      u121_Lun03_50Gb  online                   0           50         rcrel3 striped
+      u121_Lun04_55Gb  online                   0           55         rcrel14 striped
+     u121_6GB_VdiskF7  online                   0            6         0 striped
+     u121_Lun05_250Gb  online                   0          250         rcrel20 striped
+     U121_2GB_Vdisk20  online                   0            2         0 striped
+     U121_2GB_Vdisk21  online                   0            2         0 striped
+     U121_2GB_Vdisk22  online                   0            2         0 striped
+     U121_2GB_Vdisk23  online                   0            2         0 striped
+     U121_2GB_Vdisk24  online                   0            2         0 striped
+X121
+                 C0507605C5190032 2   active
+                 C0507605C5190030 2   active
+            X121_lun1  online                   0           50         0 striped
+            X121_lun2  online                   0           50         0 striped
+            X121_lun3  online                   0           50         0 striped
+            x121_lun4  online                   0           55         0 striped
+            x121_lun5  online                   0          250         0 striped
+U024
+                 C0507605C5190018 2   active
+                 C0507605C5190014 2   active
+    U024_30GB_vdisk14  online                   0           30         0 striped
+    U024_35GB_vdisk1C  online                   0           35         rcrel12 striped
+    U024_50GB_vdisk1D  online                   0           50         rcrel13 striped
+U111
+                 C0507605C519001E 0  offline
+                 C0507605C5190006 0  offline
+U071
+                 C0507605C5190022 0  offline
+                 C0507605C519000A 0  offline
+URUTEO
+                 C0507605C5190026 0  offline
+                 C0507605C519000E 0  offline
+X283
+                 10000000C9FCB656 2   active
+   X283_150GB_Vdisk18  online                   0          150         0 striped
+X386
+                 10000000C9FCB1B4 2   active
+   X386_150GB_Vdisk19  online                   0          150         0 striped
+X233
+                 10000000C9FD036D 2   active
+                 10000000C9FD036C 2   active
+   X233_150GB_Vdisk1A  online                   0          150         0 striped
+U196
+                 210100E08BA6C00D 0  offline
+                 210000E08B86C00D 0  offline
+U197
+                 210100E08BA67110 2   active
+                 210000E08B867110 2   active
+U136
+                 10000000C93DF460 2   active
+                 10000000C95808BE 2   active
+ U136_135.73GB_Vdisk23  online                   0            135       0 striped
+ U136_271.46GB_Vdisk24  online                   0            271       0 striped
+ U136_271.46GB_Vdisk25  online                   0            271       0 striped
+   U136_300GB_Vdisk27  online                   0            300       0 striped
+   U136_350GB_Vdisk26  online                   0            350       0 striped
+    U136_75GB_Vdisk28  online                   0             75       0 striped
+V050
+                 10000000C9FD0C23 2   active
+                 10000000C9FD0C22 2   active
+     V050_60GB_LUN001  online                   0           60         0 striped
+     V050_60GB_LUN002  online                   0           60         0 striped
+X149
+                 C05076057EBD0004 2   active
+                 C05076057EBD0000 2   active
+ X149_SO_40GB_Vdisk2C  online                   0           40         0 striped
+ X149_SO_40GB_Vdisk2D  online                   0           40         0 striped
+     X149_1GB_Vdisk33  online                   0            1         0 striped
+    X149_30GB_Vdisk31  online                   0           30         0 striped
+          U149_MIG_00  online                   0          200         0 striped
+U186
+                 10000000C94055A7 0  offline
+                 10000000C9405210 0  offline
+U187
+                 10000000C9405011 0  offline
+                 10000000C9405478 0  offline
+T149
+                 C05076057ED10002 2 inactive
+                 C05076057ED10000 2 inactive
+     X149_1GB_Vdisk33  online                   0            1         0 striped
+V046
+                 10000000C9FCFE5B 2   active
+                 10000000C9FCFE5A 2   active
+    V046_60GB_Vdisk34  online                  60           60         1 600507680280831B3800000000000034
+    V046_60GB_Vdisk35  online                  60           60         1 600507680280831B3800000000000035
+V040
+                 10000000C9FD0781 2   active
+                 10000000C9FD0780 2   active
+    V040_60GB_Vdisk36  online                  60           60         1 600507680280831B3800000000000036
+    V040_60GB_Vdisk37  online                  60           60         1 600507680280831B3800000000000037
+           V040_200GB  online                   0          200         rcrel23 striped
+           V040_100GB  online                   0          100         0 striped
+   V040_200GB_Vdisk30  online                   0          200         0 striped
+X062
+                 C05076057EAB0006 2   active
+                 C05076057EAB0004 2   active
+           x062_LUN00  online                  40           40         1 600507680280831B3800000000000038
+           x062_LUN01  online                  40           40         1 600507680280831B3800000000000039
+           x062_LUN02  online                  50           50         1 600507680280831B3800000000000057
+    x062_T062_hb_CDLV  online                   1            1         1 600507680280831B380000000000005C
+X080
+                 C05076057E780002 2   active
+                 C05076057E780000 2   active
+           x080_LUN00  online                  40           40         1 600507680280831B380000000000003A
+           x080_LUN01  online                  40           40         1 600507680280831B380000000000003B
+           x080_LUN02  online                   0           30         0 striped
+    x080_T080_hb_CDLV  online                   1            1         1 600507680280831B380000000000005D
+X159
+                 C05076057E780006 2   active
+                 C05076057E780004 2   active
+           x159_LUN00  online                  40           40         1 600507680280831B380000000000003C
+           x159_LUN01  online                  40           40         1 600507680280831B380000000000003D
+           x159_LUN02  online                  30           30         1 600507680280831B3800000000000059
+    x159_T159_hb_CDLV  online                   1            1         1 600507680280831B380000000000005F
+XMDI
+                 C05076057EAB0002 2   active
+                 C05076057EAB0000 2   active
+           xmdi_LUN00  online                  40           40         1 600507680280831B380000000000003E
+           xmdi_LUN01  online                  40           40         1 600507680280831B380000000000003F
+           xmdi_LUN02  online                  30           30         1 600507680280831B380000000000005A
+    xmdi_Tmdi_hb_CDLV  online                   1            1         1 600507680280831B3800000000000060
+XSBT
+                 C05076057EBD0008 2   active
+                 C05076057EBD0006 2   active
+           xsbt_LUN00  online                  40           40         1 600507680280831B3800000000000040
+           xsbt_LUN01  online                  40           40         1 600507680280831B3800000000000041
+   xsbt_Tsbst_hb_CDLV  online                   1            1         1 600507680280831B380000000000005E
+       xsbt_Swap_25GB  online                  25           25         1 600507680280831B3800000000000077
+DETL2K
+                 210000E08B892B7F 2   active
+                 210000E08B896B40 0  offline
+    detl2k_429GB_Lun1  online                   0          431         0 striped
+    detl2k_429GB_Lun3  online                   0          430         0 striped
+   detl2k_8.5GB_Lun12  online                   0           10         0 striped
+   detl2k_8.5GB_Lun13  online                   0           10         0 striped
+   detl2k_125GB_Lun11  online                   0          127         0 striped
+   detl2k_125GB_Lun10  online                   0          126         0 striped
+     detl2k_99GB_Lun8  online                   0          101         0 striped
+     detl2k_99GB_Lun6  online                   0          101         0 striped
+     detl2k_99GB_Lun7  online                   0          101         0 striped
+     detl2k_11GB_Lun5  online                   0           13         0 striped
+      detl2k_8GB_Lun9  online                   0            9         0 striped
+      detl2k_8GB_Lun4  online                   0            9         0 striped
+    detl2k_679GB_Lun2  online                   0          681         0 striped
+U270
+                 10000000C9405597 2   active
+                 10000000C94055B0 2   active
+ u270_u271_Lun0_100GB  online                   0          100         0 striped
+  u270_u271_Lun1_90GB  online                   0           90         0 striped
+  u270_u271_Lun2_90GB  online                   0           90         0 striped
+      U270_Lun03_15GB  online                   0           15         0 striped
+ u270_u271_120GB_00F5  online                   0          120         0 striped
+       u270_Lun5_10GB  online                   0           10         0 striped
+     u270_Lun06_160GB  online                   0          160         0 striped
+ u270_u271_Lun7_126GB  online                   0          126         0 striped
+ u270_u271_Lun8_110GB  online                   0          110         0 striped
+ u270_u271_Lun9_300GB  online                   0          300         0 striped
+ u270_u271_Lun10_102GB  online                   0          102         0 striped
+ u270_u271_Lun11_41GB  online                   0           41         0 striped
+      u270_Lun12_15GB  online                   0           15         0 striped
+ u270_u271_Lun13_50GB  online                   0           50         0 striped
+      u270_Lun14_93GB  online                   0           93         0 striped
+ u270_u271_Lun15_20GB  online                   0           20         0 striped
+             A270_5GB  online                   0            5         0 striped
+    U270_80GB_Vdisk17  online                   0           80         0 striped
+           U270_150GB  online                   0          150         0 striped
+U271
+                 10000000C9405621 2   active
+                 10000000C9405649 2   active
+ u270_u271_Lun0_100GB  online                   0          100         0 striped
+  u270_u271_Lun1_90GB  online                   0           90         0 striped
+  u270_u271_Lun2_90GB  online                   0           90         0 striped
+      U271_Lun03_15GB  online                   0           15         0 striped
+ u270_u271_120GB_00F5  online                   0          120         0 striped
+       u271_Lun5_10GB  online                   0           10         0 striped
+     u271_Lun06_111GB  online                   0          111         0 striped
+ u270_u271_Lun7_126GB  online                   0          126         0 striped
+ u270_u271_Lun8_110GB  online                   0          110         0 striped
+ u270_u271_Lun9_300GB  online                   0          300         0 striped
+ u270_u271_Lun10_102GB  online                   0          102         0 striped
+ u270_u271_Lun11_41GB  online                   0           41         0 striped
+      U271_Lun12_15GB  online                   0           15         0 striped
+ u270_u271_Lun13_50GB  online                   0           50         0 striped
+     u271_Lun14_100GB  online                   0          100         0 striped
+ u270_u271_Lun15_20GB  online                   0           20         0 striped
+            U271_75GB  online                   0           75         0 striped
+          U271_75GB_1  online                  75           75         1 600507680280831B380000000000011E
+T062
+                 C05076057F4E0006 2   active
+                 C05076057F4E0004 2   active
+    x062_T062_hb_CDLV  online                   1            1         1 600507680280831B380000000000005C
+T080
+                 C05076057E810002 2   active
+                 C05076057E810000 2   active
+    x080_T080_hb_CDLV  online                   1            1         1 600507680280831B380000000000005D
+T159
+                 C05076057E810006 2   active
+                 C05076057E810004 2   active
+    x159_T159_hb_CDLV  online                   1            1         1 600507680280831B380000000000005F
+TMDI
+                 C05076057F4E0002 2   active
+                 C05076057F4E0000 2   active
+    xmdi_Tmdi_hb_CDLV  online                   1            1         1 600507680280831B3800000000000060
+TSBT
+                 C05076057ED10006 2   active
+                 C05076057ED10004 2   active
+   xsbt_Tsbst_hb_CDLV  online                   1            1         1 600507680280831B380000000000005E
+U256
+                 10000000C946D741 2   active
+                 10000000C94B47C5 2   active
+            u256_vg_A  online                   0             80       0 striped
+       u256_u257_vg01  online                   0            200       0 striped
+     u256_u257_vg02_A  online                   0            400       0 striped
+       u256_u257_vg03  online                   0            200       0 striped
+     u256_u257_vghb_A  online                   0              0       0 striped
+       u256_u257_50GB  online                   0             50       0 striped
+      u256_u257_lun00  online                   0             51       0 striped
+ U256_U257_110GB_00dc  online                   0          110         0 striped
+bchapp410
+                 21000024FF32A5B1 2   active
+                 21000024FF32A5B0 2   active
+ Bchapp410_Disco_F_300GB  online                 300          300         1 600507680280831B38000000000000D6
+ Bchapp410_Disco_G_200GB  online                 200          200         1 600507680280831B38000000000000D4
+ Bchapp410_Disco_I_50GB  online                  50           50         1 600507680280831B38000000000000D5
+NIM61
+                 10000000C98F8798 2   active
+                 10000000C98F8A12 2   active
+      NIM61_250GB_001  online                   0          250         0 striped
+      NIM61_250GB_002  online                   0          250         0 striped
+      NIM61_250GB_003  online                   0          250         0 striped
+      NIM61_250GB_004  online                   0          250         0 striped
+ NIM61_1.3TB_FsBackup  online                   0         1332         0 striped
+U230
+                 2101001B32B2DDDE 0  offline
+                 2100001B3292DDDE 0  offline
+     u230_Rootvg_40GB  online                   0           40         0 striped
+   u230_Datos01_120GB  online                   0          120         0 striped
+U231
+                 2101001B32B201DC 0  offline
+                 2100001B329201DC 0  offline
+     u231_Rootvg_40GB  online                   0           40         0 striped
+   u231_Datos01_120GB  online                   0          120         0 striped
+U232
+                 21000024FF230B31 2 inactive
+                 21000024FF230B30 2 inactive
+     u232_Rootvg_40GB  online                   0           40         0 striped
+   u232_Datos01_160GB  online                   0          160         0 striped
+U234
+                 2101001B32B21ADB 0  offline
+                 2100001B32921ADB 0  offline
+     u234_Rootvg_40GB  online                   0           40         0 striped
+   u234_Datos01_120GB  online                   0          120         0 striped
+U249
+                 2101001B323108A1 2 inactive
+                 2100001B321108A1 2 inactive
+     u249_Rootvg_40GB  online                   0           40         0 striped
+   u249_Datos02_120GB  online                   0          120         0 striped
+   U249_Datos01_180GB  online                   0          180         0 striped
+U275
+                 2101001B32B257DA 0  offline
+                 2100001B329257DA 0  offline
+     u275_Rootvg_40GB  online                   0           40         0 striped
+   U275_Datos01_130GB  online                   0          130         0 striped
+Bchapp212
+                 5001438012071C8C 0  offline
+                 5001438012072B22 0  offline
+ Bchapp212_1TB_VdiskF6  online                   0         1024         0 striped
+U160
+                 10000000C94656CA 2 inactive
+                 10000000C9465013 0  offline
+      u160_Lun0_200GB  online                   0          200         0 striped
+U104
+                 10000000C9465358 0  offline
+                 10000000C9465A35 0  offline
+        u104_vol1_src  online                   0          140         rcrel15 striped
+        u104_vol2_src  online                   0          140         rcrel16 striped
+U257
+                 10000000C94B4216 2   active
+                 10000000C94B3A72 2   active
+              u257_vg  online                   0             80       0 striped
+       u256_u257_vg01  online                   0            200       0 striped
+     u256_u257_vg02_A  online                   0            400       0 striped
+       u256_u257_vg03  online                   0            200       0 striped
+     u256_u257_vghb_A  online                   0              0       0 striped
+       u256_u257_50GB  online                   0             50       0 striped
+      u256_u257_lun00  online                   0             51       0 striped
+ U256_U257_110GB_00dc  online                   0          110         0 striped
+U254
+                 210100E08BA5F584 0  offline
+                 210000E08B85F584 0  offline
+      u254_u255_Lun01  online                   0             50       0 striped
+         u254_u255_HB  online                   0             12       0 striped
+U255
+                 210100E08BA63510 0  offline
+                 210000E08B863510 0  offline
+      u254_u255_Lun01  online                   0             50       0 striped
+         u254_u255_HB  online                   0             12       0 striped
+U245
+                 10000000C946D67E 2   active
+                 10000000C96689FB 2   active
+     u245_Lun00_LUN00  online                   0            200       0 striped
+    u245_Lun001_LUN01  online                   0            300       0 striped
+     u245_Lun01_LUN02  online                   0            200       0 striped
+     u245_Lun02_LUN03  online                   0             50       0 striped
+     u245_Lun03_LUN04  online                   0            705       0 striped
+     u245_Lun04_LUN05  online                   0            250       0 striped
+      u245_81GB_LUN06  online                   0             81       0 striped
+ u245_120GB_LUN_01_LUN07  online                   0            120       0 striped
+ u245_LUN001_410GB_LUN08  online                   0            410       0 striped
+ u245_LUN002_56GB_LUN09  online                   0             56       0 striped
+ u245_LUN003_30GB_LUN10  online                   0             30       0 striped
+   u245_Lun01_A_LUN11  online                   0           1089       0 striped
+   u245_Lun02_A_LUN12  online                   0            120       0 striped
+     u245_Lun03_LUN13  online                   0             44       0 striped
+     u245_Lun04_LUN14  online                   0            120       0 striped
+     u245_500GB_LUN15  online                   0          500         0 striped
+     u245_500GB_LUN16  online                   0          500         0 striped
+U258
+                 10000000C94B35BC 0  offline
+                 10000000C94B47CC 0  offline
+      u258_VG01_LUN00  online                   0            200       0 striped
+   u258_VG02_01_LUN01  online                   0            109       0 striped
+   u258_VG02_02_LUN02  online                   0             60       0 striped
+   u258_VG02_03_LUN03  online                   0             41       0 striped
+     u258_udata_LUN04  online                   0             50       0 striped
+     u258_210BG_LUN05  online                   0            209       0 striped
+    u258_VG02_04_LUN4  online                   0          150         0 striped
+NIM52
+                 10000000C94B33A2 2   active
+                 10000000C94B42F6 2   active
+      UNIM_1TB_LUN001  online                   0         1024         0 striped
+      NIM52_250GB_001  online                   0          250         0 striped
+      NIM52_250GB_002  online                   0          250         0 striped
+      NIM52_250GB_003  online                   0          250         0 striped
+      NIM52_250GB_004  online                   0          250         0 striped
+      NIM52_250GB_005  online                   0          250         0 striped
+ NIM52_440GB_FsBackup  online                   0          440         0 striped
+U252
+                 210100E08BA5E383 0  offline
+                 210000E08B85E383 0  offline
+ DS4300_Integracion_B_u252_Lun01  online                   0            110       0 striped
+ DS4300_Integracion_B_u252_Lun_prueba_5GB  online                   0              5       0 striped
+ DS4300-DW_u252_Lun01_A  online                   0             40       0 striped
+U266
+                 10000000C94B35B5 0  offline
+                 10000000C94B359D 0  offline
+U267
+                 10000000C94B4361 0  offline
+                 10000000C946D72E 0  offline
+BCHNC53
+                 2101001B32BD857A 2   active
+                 2100001B329D857A 2   active
+ Bchnc53_Bchnc54_400GB_VdiskD7  online                   0          400         0 striped
+ Bchnc53_Bchnc54_200GB_VdiskD8  online                   0          200         0 striped
+ Bchnc53_Bchnc54_120GB_VdiskD9  online                   0          120         0 striped
+ Bchnc53_Bchnc54_1GB_VdiskDA  online                   0            1         0 striped
+BCHNC54
+                 2101001B32B54357 2   active
+                 2100001B32954357 2   active
+ Bchnc53_Bchnc54_400GB_VdiskD7  online                   0          400         0 striped
+ Bchnc53_Bchnc54_200GB_VdiskD8  online                   0          200         0 striped
+ Bchnc53_Bchnc54_120GB_VdiskD9  online                   0          120         0 striped
+ Bchnc53_Bchnc54_1GB_VdiskDA  online                   0            1         0 striped
+NIM53
+                 2100001B32925EDE 2   active
+                 2101001B32B25EDE 2   active
+      NIM53_250GB_001  online                   0          250         0 striped
+      NIM53_250GB_002  online                   0          250         0 striped
+      NIM53_250GB_003  online                   0          250         0 striped
+ NIM53_700GB_Fsbackup  online                   0          700         0 striped
+X194
+                 C05076057EBD001A 0  offline
+                 C05076057EBD0018 0  offline
+T194
+                 C05076057E81002C 2 inactive
+                 C05076057E81001E 2 inactive
+BCHHYPERVDC24
+                 10000090FA193723 0  offline
+                 10000090FA193722 0  offline
+                 10000090FA19383D 0  offline
+                 10000090FA19383C 0  offline
+U370
+                 10000000C9C2E933 2   active
+                 10000000C9C2E932 2   active
+                 10000000C9C2E931 2   active
+                 10000000C9C2E930 2   active
+  U370_U371_512GB_001  online                   0          512         0 striped
+  U370_U371_512GB_002  online                   0          512         0 striped
+U371
+                 10000000C9C25AE6 2   active
+                 10000000C9C25AE7 2   active
+                 10000000C9C25AE4 2   active
+                 10000000C9C25AE5 2   active
+  U370_U371_512GB_001  online                   0          512         0 striped
+  U370_U371_512GB_002  online                   0          512         0 striped
+BCHLNX57
+                 50014380140FD0F2 0  offline
+                 50014380140FD0F0 0  offline
+ BCHLNX57_Disk01_200GB  online                   0          200         0 striped
+ BCHLNX57_Disk02_200GB  online                   0          200         0 striped
+U380
+                 10000000C9C2E964 2   active
+                 10000000C9C8E4AC 2   active
+                 10000000C9C2E965 2   active
+                 10000000C9C8E4AD 2   active
+ U380_U381_100GB_Disk01  online                   0          100         0 striped
+ U380_U381_100GB_Disk02  online                   0          100         0 striped
+ U380_U381_100GB_Disk03  online                   0          100         0 striped
+ U380_U381_100GB_Disk04  online                   0          100         0 striped
+ U380_U381_100GB_Disk05  online                   0          100         0 striped
+ U380_U381_100GB_Disk06  online                   0          100         0 striped
+ U380_U381_100GB_Disk07  online                   0          100         0 striped
+ U380_U381_100GB_Disk08  online                   0          100         0 striped
+    U380_300GB_Disk09  online                   0          300         0 striped
+U381
+                 10000000C9D2100C 2   active
+                 10000000C9D20F7C 2   active
+                 10000000C9D2100D 2   active
+                 10000000C9D20F7D 2   active
+ U380_U381_100GB_Disk01  online                   0          100         0 striped
+ U380_U381_100GB_Disk02  online                   0          100         0 striped
+ U380_U381_100GB_Disk03  online                   0          100         0 striped
+ U380_U381_100GB_Disk04  online                   0          100         0 striped
+ U380_U381_100GB_Disk05  online                   0          100         0 striped
+ U380_U381_100GB_Disk06  online                   0          100         0 striped
+ U380_U381_100GB_Disk07  online                   0          100         0 striped
+ U380_U381_100GB_Disk08  online                   0          100         0 striped
+    U381_300GB_Disk09  online                   0          300         0 striped
+U252_New
+                 C0507604CC78000A 2   active
+                 C0507604CC780008 2   active
+ DS4300_Integracion_B_u252_Lun01  online                   0            110       0 striped
+ DS4300_Integracion_B_u252_Lun_prueba_5GB  online                   0              5       0 striped
+ DS4300-DW_u252_Lun01_A  online                   0             40       0 striped
+ U252_new_SO_vdisk0110  online                   0           80         0 striped
+ U252_new_SO_vdisk0111  online                   0           80         0 striped
+L79R
+                 10000000C9B7121D 2   active
+                 10000000C9B7121C 2   active
+   L79R_200GB_Vdisk13  online                   0          200         0 striped
+U230_NEW
+                 C0507604CC78000E 2   active
+                 C0507604CC78000C 2   active
+   u230_Datos01_120GB  online                   0          120         0 striped
+U234_NEW
+                 C0507604CC69000A 2   active
+                 C0507604CC690008 2   active
+   u234_Datos01_120GB  online                   0          120         0 striped
+LPM01testing
+                 C0507607D8030003 0  offline
+                 C0507607D8030001 0  offline
+                 C0507607D8030002 0  offline
+                 C0507607D8030000 0  offline
+V002
+                 10000090FA726A03 2   active
+                 10000090FA726A02 2   active
+            V002_LUN1  online                   0           80         0 striped
+            V002_LUN2  online                   0           80         0 striped
+            V002_LUN3  online                   0           80         0 striped
+            V002_LUN4  online                   0           80         0 striped
+            V002_LUN5  online                   0           80         0 striped
+            V002_LUN6  online                   0          100         0 striped
+            V002_LUN7  online                   0           80         0 striped
+V001
+                 10000090FA6C857B 2   active
+                 10000090FA6C857A 2   active
+            V001_LUN1  online                   0           80         0 striped
+            V001_LUN2  online                   0           80         0 striped
+            V001_LUN3  online                   0           80         0 striped
+            V001_LUN4  online                   0           80         0 striped
+            V001_LUN5  online                   0           80         0 striped
+            V001_LUN6  online                   0           80         0 striped
+viocdlvmig15
+                 10000090FA70F693 2 inactive
+                 10000090FA70F692 2 inactive
+viocdlvmig16
+                 10000090FA72581F 2 inactive
+                 10000090FA72581E 2 inactive
+U249_mig
+                 C0507607CEA00006 2   active
+                 C0507607CEA00004 2   active
+   U249_Datos01_180GB  online                   0          180         0 striped
+   u249_Datos02_120GB  online                   0          120         0 striped
+          U249_Vdisk1  online                   0           80         0 striped
+          U249_Vdisk2  online                   0           80         0 striped
+U231_New
+                 C0507607CEA00016 2   active
+                 C0507607CEA00014 2   active
+   u231_Datos01_120GB  online                   0          120         0 striped
+U232_New
+                 C0507607CEA00018 2   active
+                 C0507607CEA0001A 2   active
+   u232_Datos01_160GB  online                   0          160         0 striped
+BCHAPP439
+                 21000024FF43932E 0  offline
+                 21000024FF43932F 0  offline
+ Bchapp212_1TB_VdiskF6  online                   0         1024         0 striped
+BCHHYPERVDC06
+                 50014380167D615E 2 inactive
+                 50014380167CE322 2   active
+ BCHHYPERVDC24_2TB_00F8  online                2048         2048         1 600507680280831B38000000000000F8
+ Bchhypervdc24_130GB_Vdisk03  online                 130          130         1 600507680280831B3800000000000103
+ BCHHYPERVDC24_130gb_VDISK04  online                   0          130         0 striped
+V048
+                 10000000C9E8F2E5 2   active
+                 10000000C9E8F2E4 2   active
+            V048_LUN1  online                   0           80         0 striped
+V049
+                 10000000C9E8F36F 0  offline
+                 10000000C9E8F36E 0  offline
+            V049_LUN1  online                  80           80         1 600507680280831B380000000000014D

@@ -1,0 +1,13 @@
+id,name,IO_group_id,IO_group_name,status,mdisk_grp_id,mdisk_grp_name,capacity,type,FC_id,FC_name,RC_id,RC_name,vdisk_UID,fc_map_count,copy_count,fast_write_state,se_copy_count,RC_change,compressed_copy_count,parent_mdisk_grp_id,parent_mdisk_grp_name,formatting,encrypt,volume_id,volume_name,function
+0,BCSVMW003_004_5TB_VDisk05,0,io_grp0,online,0,Pool0,5497558138880,striped,,,,,60050764008180A03000000000000005,0,1,not_empty,0,no,0,0,Pool0,no,no,0,BCSVMW003_004_5TB_VDisk05,
+1,BCSVMW003_004_5TB_VDisk06,0,io_grp0,online,0,Pool0,5497558138880,striped,,,,,60050764008180A03000000000000006,0,1,not_empty,0,no,0,0,Pool0,no,no,1,BCSVMW003_004_5TB_VDisk06,
+2,BCSVMW003_004_5TB_VDisk07,0,io_grp0,online,0,Pool0,5497558138880,striped,,,,,60050764008180A03000000000000007,0,1,not_empty,0,no,0,0,Pool0,no,no,2,BCSVMW003_004_5TB_VDisk07,
+3,BCSVMW003_004_5TB_VDisk08,0,io_grp0,online,0,Pool0,5497558138880,striped,,,,,60050764008180A03000000000000008,0,1,not_empty,0,no,0,0,Pool0,no,no,3,BCSVMW003_004_5TB_VDisk08,
+4,BCSVMW003_004_5TB_VDisk009,0,io_grp0,online,0,Pool0,5497558138880,striped,,,,,60050764008180A03000000000000009,0,1,not_empty,0,no,0,0,Pool0,no,no,4,BCSVMW003_004_5TB_VDisk009,
+5,BCSVMWDMZ002_5TB,0,io_grp0,online,0,Pool0,5497558138880,striped,,,,,60050764008180A0300000000000000A,0,1,not_empty,0,no,0,0,Pool0,no,no,5,BCSVMWDMZ002_5TB,
+6,BCSVMW003_004_5TB_VDISK10,0,io_grp0,online,0,Pool0,5497558138880,striped,,,,,60050764008180A0300000000000000D,0,1,not_empty,0,no,0,0,Pool0,no,no,6,BCSVMW003_004_5TB_VDISK10,
+7,BCSVMW003_004_5TB_VDISK11,0,io_grp0,online,0,Pool0,5497558138880,striped,,,,,60050764008180A0300000000000000E,0,1,not_empty,0,no,0,0,Pool0,no,no,7,BCSVMW003_004_5TB_VDISK11,
+8,BCSVM003_004_7TB_VDisk010,0,io_grp0,online,0,Pool0,7696581394432,striped,,,,,60050764008180A03000000000000010,0,1,not_empty,0,no,0,0,Pool0,no,no,8,BCSVM003_004_7TB_VDisk010,
+9,BCSVMW003_004_10TB_VDisk010,0,io_grp0,online,0,Pool0,10995116277760,striped,,,,,60050764008180A03000000000000011,0,1,not_empty,0,no,0,0,Pool0,no,no,9,BCSVMW003_004_10TB_VDisk010,
+10,BCSVMW003_004_10TB_VDisk011,0,io_grp0,online,0,Pool0,10995116277760,striped,,,,,60050764008180A03000000000000012,0,1,not_empty,0,no,0,0,Pool0,no,no,10,BCSVMW003_004_10TB_VDisk011,
+11,BCSVMW003_004_10TB_VDisk012,0,io_grp0,online,0,Pool0,10995116277760,striped,,,,,60050764008180A03000000000000013,0,1,not_empty,0,no,0,0,Pool0,no,no,11,BCSVMW003_004_10TB_VDisk012,

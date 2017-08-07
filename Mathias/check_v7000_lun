@@ -1,0 +1,173 @@
+#!/bin/bash
+ssh=/usr/bin/ssh
+exitCode=0
+while getopts 'I:Q:h' OPT; do
+  case $OPT in
+        I)  IP=$OPTARG;;
+        Q)      query=$OPTARG;;
+        h)  help="yes";;
+        *)  unknown="yes";;
+  esac
+done
+
+HELP="
+        usage:
+
+        ./script -I [Ip]
+
+        -I  : Storage Ip address (*required*)
+
+                Example v7000 :
+
+                                Storage | Ip | Lun Name | Lun_id | uuid | Size | Origen/Replica | Host 
+
+
+        "
+if [ "$hlp" = "yes" -o $# -lt 1 ]; then
+                echo "$HELP"
+                exit 0
+fi
+
+TABLA=/home/pmathias/scripts/Mathias/TABLA
+
+ip=$(cat $TABLA | grep $IP | awk '{print $1}')
+ctl=$(cat $TABLA | grep $IP | awk '{print $2}')
+
+fecha=$(date +"%d-%m-%y")
+hora=$(date +"%H:%M:%S")
+hr=$(date +"%H%M")
+
+dia=$(date +"%d")
+mes=$(date +"%B")
+year=$(date +"%Y")
+
+inf_host=/home/pmathias/scripts/Mathias/inf_host_$IP
+final_tmp=/home/pmathias/scripts/Mathias/final_tmp_$IP
+v7000_lun_host=/home/pmathias/scripts/Mathias/lun_v7000_tmp
+final=/home/pmathias/scripts/Mathias/lun_v7000_$fecha
+
+#final=/u01/app/oracle/Proyecto_1/V7000/2017-February/final
+#final_tmp=/u01/app/oracle/Proyecto_1/V7000/2017-February/final_tmp_v7000_$IP
+#v7000_lun_host=/u01/app/oracle/Proyecto_1/V7000/2017-February/v7000_lun_host_$IP
+#inf_host=/u01/app/oracle/Proyecto_1/V7000/2017-February/inf_host_$IP
+
+#########################################################################
+
+
+check_luns_v7000_datos=/home/pmathias/scripts/Mathias/v7000_check_luns_v7000_datos"_"$IP
+
+lsvdisk=/home/pmathias/scripts/Mathias/bytes"_"$IP
+
+mirror=/home/pmathias/scripts/Mathias/v7000_mirror"_"$fecha
+
+#########################################################################
+
+
+if [[ -e $final_tmp ]]; then
+    rm $final_tmp
+fi
+#if [[ -e $v7000_lun_host ]]; then
+#   rm $v7000_lun_host
+#fi
+
+echo NOHOST
+#########################################################################
+cont=$(cat $lsvdisk | sed '1d' | wc -l )
+var_lun=2
+function datos () {
+        nom_lun=$(cat $lsvdisk | sed -n ''$var_lun'p'| cut -d "," -f 2  )
+        lun_id=$(cat $lsvdisk | sed -n ''$var_lun'p'| cut -d "," -f 1 )
+        uuid=$(cat $lsvdisk |sed -n ''$var_lun'p'| cut -d "," -f 14  )
+        total=$(cat $lsvdisk | sed -n ''$var_lun'p' | cut -d "," -f 8)
+        GB_total=`echo "scale=2;$total/(1024*1024*1024)"| bc -l | awk '{printf "%.2f", $0}'`
+        origen=$(cat $mirror | grep -w $nom_lun | sort | uniq | awk '{print $6}')
+        destino=$(cat $mirror | grep -w $nom_lun | sort | uniq | awk '{print $10}')
+}
+while [ $cont -gt 0 ]; do
+        datos
+        nohost=$(cat $check_luns_v7000_datos | grep -w $nom_lun | sort | uniq | wc -l)
+        if [ $nohost -eq 0 ]; then
+                if [ "$nom_lun" = "$origen" ]; then
+                        echo -ne "$ctl $ip $nom_lun $lun_id $uuid $GB_total origen NA\n" >> $v7000_lun_host
+                fi
+                if [ "$nom_lun" = "$destino" ]; then
+                        echo -ne "$ctl $ip $nom_lun $lun_id $uuid $GB_total destino NA\n" >> $v7000_lun_host
+                fi
+                nada=$(cat $mirror | grep -w $nom_lun |sort | uniq | wc -l)
+                if [[ $nada -eq 0 ]]; then
+                    echo -ne "$ctl $ip $nom_lun $lun_id $uuid $GB_total NA NA\n" >> $v7000_lun_host
+                    #echo  $nom_lun $lun_id $uuid $total $GB_total
+                fi
+        fi
+        let var_lun=var_lun+1
+        let cont-=1
+done
+###########################################################################
+echo HOST
+#############################################################################
+cont=$( cat $check_luns_v7000_datos | grep -v 'active\|inactive\|offline\|online\|degraded' | wc -l )
+var_nom=1
+var_stop=2
+while [ $cont -gt 0 ]; do
+        nom_host=$(cat -n $check_luns_v7000_datos | grep -v 'active\|inactive\|offline\|online\|degraded' | sed -n ''$var_nom'p' | awk '{print $2}'  | tr -d $'\r')
+        line_start=$(cat -n $check_luns_v7000_datos | grep -v 'active\|inactive\|offline\|online\|degraded' | sed -n ''$var_nom'p' |  awk '{print $1}' | tr -d $'\r')
+        line_stop=$(cat -n $check_luns_v7000_datos | grep -v 'active\|inactive\|offline\|online\|degraded' | sed -n ''$var_stop'p' | awk '{print $1}' | tr -d $'\r')
+        if [ -z $line_stop ]; then
+                line_stop=$(cat -n $check_luns_v7000_datos | sed -n '$p' | awk '{print $1}' | tr -d $'\r' )
+        fi
+        cat -n $check_luns_v7000_datos | sed -n ''$line_start','$line_stop'p' | grep 'online' > $inf_host
+        cont_lun=$(cat $inf_host | wc -l )
+        var_lun=1
+        while [ $cont_lun -gt 0 ]; do
+                nom_lun=$( cat $inf_host |  sed -n ''$var_lun'p' | awk '{print $2}' | tr -d $'\r')
+                lun_id=$(cat $lsvdisk | grep -w $nom_lun | cut -d "," -f 1 | tr -d $'\r')
+                cont_uuid=$( cat $inf_host | tr -d "()" | sed -n ''$var_lun'p' | awk '{print $6}' | tr -d $'\r' | wc -c)
+                uuid=$(cat $lsvdisk | grep -w $nom_lun | cut -d "," -f 14  )
+                total=$(cat $lsvdisk | grep -w $nom_lun | cut -d "," -f 8)
+                GB_total=`echo "scale=2;$total/(1024*1024*1024)"| bc -l | awk '{printf "%.2f", $0}'`
+                origen=$(cat $mirror | grep -w $nom_lun |sort|uniq| awk '{print $6}')
+                destino=$(cat $mirror | grep -w $nom_lun |sort|uniq| awk '{print $10}')
+                if [ "$nom_lun" = "$origen" ] ; then
+                        echo -ne "$ctl $ip $nom_lun $lun_id $uuid $total origen $nom_host\n" >> $v7000_lun_host
+                fi
+               if [ "$nom_lun" = "$destino" ] ; then
+                        echo -ne "$ctl $ip $nom_lun $lun_id $uuid $total destino $nom_host\n" >> $v7000_lun_host
+                fi
+                if [ "$nom_lun" != "$origen" ] && [ "$nom_lun" != "$destino" ]; then
+                        echo -ne "$ctl $ip $nom_lun $lun_id $uuid $GB_total NA $nom_host\n" >> $v7000_lun_host
+                fi
+                let var_lun=var_lun+1
+                let cont_lun=cont_lun-1
+        done
+        let var_nom=var_nom+1
+        let var_stop=var_stop+1
+        let cont-=1
+done
+
+############### PROCESAMIENTO DE DATOS #################
+
+echo "PROCESAMIENTO DE DATOS"
+cont_uid=$(cat $v7000_lun_host | awk '{print $5}' | wc -l )
+var=1
+while [ $cont_uid -gt 0 ]; do
+        #uid=$(cat $v7000_lun_host | awk '{print $5}' | sed -n ''$var'p' )
+    uid=$(cat $v7000_lun_host |sort | uniq | awk '{print $5}' | sed -n ''$var'p' )
+        cont_host=$(cat $v7000_lun_host | grep $uid | wc -l )
+        var_host=1
+        while [ $cont_host -gt 0 ]; do
+                host=$(cat $v7000_lun_host |sort | uniq| grep $uid | awk '{print $8}' | uniq | sed -n ''$var_host'p')
+                mensaje="$host $mensaje"
+                let var_host=var_host+1
+                let cont_host=cont_host-1
+        done
+        nom_lun=$(cat $v7000_lun_host |sort | uniq| grep -w $uid |awk '{print $3}' | uniq )
+        lun_id=$(cat $v7000_lun_host |sort | uniq| grep -w $uid | awk '{print $4}' | uniq )
+        total=$(cat $v7000_lun_host |sort | uniq| grep -w $uid  |awk '{print $6}' | uniq )
+        org_dest=$(cat $v7000_lun_host |sort | uniq| grep -w $uid  |awk '{print $7}' | uniq )
+        echo -ne "$ctl|$ip|$nom_lun|$lun_id|$uid|$total|$org_dest|$mensaje\n" >> $final_tmp
+        mensaje=
+        let var=var+1
+        let cont_uid-=1
+done
+cat $final_tmp | sort | uniq >> $final
+

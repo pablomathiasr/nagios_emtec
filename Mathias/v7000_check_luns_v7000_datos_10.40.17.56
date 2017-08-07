@@ -1,0 +1,73 @@
+D48R
+                 10000000C9B7121C 2   active
+                 10000000C9B7121D 2   active
+    D48R_70GB_Vdisk06  online                  70           70         1 60050768027F00477800000000000006
+    D48R_70GB_Vdisk07  online                  70           70         1 60050768027F00477800000000000007
+   D48R_100GB_Vdisk10  online                 100          100         1 60050768027F00477800000000000010
+   D48R_100GB_Vdisk11  online                 100          100         1 60050768027F00477800000000000011
+    D48R_20GB_Vdisk1C  online                  20           20         1 60050768027F0047780000000000001C
+    D48R_40GB_Vdisk26  online                  40           40         1 60050768027F00477800000000000026
+    D48R_75GB_Vdisk23  online                  75           75         1 60050768027F00477800000000000023
+   D48R_100GB_Vdisk1A  online                 100          100         1 60050768027F0047780000000000001A
+    D48R_60GB_Vdisk18  online                  60           60         1 60050768027F00477800000000000018
+   D48R_155GB_Vdisk1B  online                 155          155         1 60050768027F0047780000000000001B
+   D48R_100GB_Vdisk19  online                 100          100         1 60050768027F00477800000000000019
+   D48R_100GB_Vdisk2F  online                 100          100         1 60050768027F0047780000000000002F
+   D48R_200GB_Vdisk30  online                 200          200         1 60050768027F00477800000000000030
+   D48R_100GB_Vdisk31  online                 100          100         1 60050768027F00477800000000000031
+    D48R_90GB_Vdisk35  online                  90           90         1 60050768027F00477800000000000035
+   L79R_350GB_Vdisk38  online                 350          350         1 60050768027F00477800000000000038
+   L79R_200GB_Vdisk39  online                 200          200         1 60050768027F00477800000000000039
+   L79R_200GB_Vdisk3A  online                 200          200         1 60050768027F0047780000000000003A
+    L79R_40GB_Vdisk3B  online                  40           40         1 60050768027F0047780000000000003B
+U346
+                 10000000C9A4D0F0 2   active
+                 10000000C9A4D0F1 2   active
+    U346_70GB_Vdisk1D  online                  70           70         1 60050768027F0047780000000000001D
+    U346_70GB_Vdisk1E  online                  70           70         1 60050768027F0047780000000000001E
+   U346_350GB_Vdisk25  online                 350          350         1 60050768027F00477800000000000025
+U341
+                 10000000C9A4BFB2 2   active
+                 10000000C9A4BFB3 2   active
+   U341_100GB_Vdisk1F  online                 100          100         1 60050768027F0047780000000000001F
+U345
+                 10000000C9A4CD0A 2   active
+                 10000000C9A4CD0B 2   active
+   U345_150GB_Vdisk24  online                 150          150         1 60050768027F00477800000000000024
+U342
+                 10000000C9A4D100 2   active
+                 10000000C9A4D101 2   active
+   U342_100GB_Vdisk20  online                 100          100         1 60050768027F00477800000000000020
+U344
+                 10000000C9A4C309 2   active
+                 10000000C9A4C308 2   active
+   U344_100GB_Vdisk22  online                 100          100         1 60050768027F00477800000000000022
+U343
+                 10000000C9A4B21B 2   active
+                 10000000C9A4B21A 2   active
+   U343_100GB_Vdisk21  online                 100          100         1 60050768027F00477800000000000021
+    U343_20GB_Vdisk2E  online                  20           20         1 60050768027F0047780000000000002E
+V001
+                 10000090FA6C857B 2   active
+                 10000090FA710926 2   active
+    VIOCDLVMIG14_80GB  online                  80           80         1 60050768027F0047780000000000003D
+V073
+                 10000000C9B72DEB 2   active
+                 10000000C9B72DEA 2   active
+    V073_50GB_Vdisk05  online                  50           50         1 60050768027F00477800000000000005
+V072
+                 10000000C9B72CB5 2   active
+                 10000000C9B72CB4 2   active
+ V072_Vios1_50GB_Vdisk08  online                  50           50         1 60050768027F00477800000000000008
+vio_portal_qa01
+                 10000000C9A4AEE1 0  offline
+                 10000000C9A4AEE0 2   active
+ Vioportal_qa01_50GB_Vdisk2A  online                  50           50         1 60050768027F0047780000000000002A
+vio_portal_desa01
+                 10000000C9A90D93 0  offline
+                 10000000C9A90D92 0  offline
+ Vioportal_desa01_50GB_Vdisk2B  online                  50           50         1 60050768027F0047780000000000002B
+V002
+                 10000090FA726A03 2   active
+                 10000090FA6A80A0 2   active
+    VIOCDLVMIG13_80GB  online                  80           80         1 60050768027F0047780000000000003C
